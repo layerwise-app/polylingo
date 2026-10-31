@@ -190,12 +190,12 @@
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(16deg);
+    transform: rotate(-16deg);
   }
 }
 .mascot-waving [data-mascot-wing='right'] > * {
   transform-box: view-box;
-  transform-origin: 144px 104px;
+  transform-origin: 0 0;
   animation: mascot-wave 0.7s ease-in-out infinite;
 }
 @keyframes pop-in {

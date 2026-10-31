@@ -134,7 +134,7 @@ function Home() {
       <main>
         <section className='mx-auto grid max-w-6xl items-center gap-10 px-4 py-12 sm:px-6 lg:grid-cols-2 lg:py-20'>
           <div className='flex flex-col items-center text-center lg:items-start lg:text-left'>
-            <div className='mb-4 flex items-end gap-3'>
+            <div className='mb-4 flex items-end gap-5'>
               <Mascot pose='wave' animate='bob' className='size-28 sm:size-32' />
               <p className='relative mb-8 rounded-2xl border-2 border-border bg-card px-4 py-2 font-black'>
                 ¡Hola! Soy {brand.mascot.name}.
