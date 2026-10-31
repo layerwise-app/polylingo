@@ -1,0 +1,14 @@
+{
+  "generatedBy": "scripts/audio/render-clips.mjs",
+  "engine": "OpenAI Chat Completions",
+  "model": "gpt-audio-1.5",
+  "voice": "marin",
+  "locale": "Latin American Spanish, Mexican accent (requested in the prompt)",
+  "aiGenerated": true,
+  "generatedAt": "2026-10-31T14:03:39.199Z",
+  "clipCount": 650,
+  "format": "MP3, mono, 24 kHz, 64 kbps, -18 LUFS, edge silence trimmed",
+  "slowVersion": "Spoken slowly by the model, not time-stretched. 1.36x to 2.98x the normal length.",
+  "verifiedWith": "Model transcript, gpt-4o-transcribe, and one of gpt-4o-mini-transcribe or whisper-1 compared to the script, ignoring case, punctuation, and accents",
+  "humanReviewed": false
+}

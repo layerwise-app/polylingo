@@ -1,0 +1,3646 @@
+[
+  {
+    "key": "¡buen viaje!",
+    "text": "¡Buen viaje!",
+    "say": "¡Buen viaje!",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/buen-viaje-068702a6.mp3",
+    "slow": "public/audio/slow/buen-viaje-068702a6.mp3"
+  },
+  {
+    "key": "¿a qué hora sale el tren?",
+    "text": "¿A qué hora sale el tren?",
+    "say": "¿A qué hora sale el tren?",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/a-que-hora-sale-el-tren-9b7f8440.mp3",
+    "slow": "public/audio/slow/a-que-hora-sale-el-tren-9b7f8440.mp3"
+  },
+  {
+    "key": "¿cómo te llamas?",
+    "text": "¿Cómo te llamas?",
+    "say": "¿Cómo te llamas?",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/como-te-llamas-8416671e.mp3",
+    "slow": "public/audio/slow/como-te-llamas-8416671e.mp3"
+  },
+  {
+    "key": "¿cuánto cuesta la camisa?",
+    "text": "¿Cuánto cuesta la camisa?",
+    "say": "¿Cuánto cuesta la camisa?",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/cuanto-cuesta-la-camisa-eb28d88a.mp3",
+    "slow": "public/audio/slow/cuanto-cuesta-la-camisa-eb28d88a.mp3"
+  },
+  {
+    "key": "¿cuántos años tienes?",
+    "text": "¿Cuántos años tienes?",
+    "say": "¿Cuántos años tienes?",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/cuantos-anos-tienes-505aa3f4.mp3",
+    "slow": "public/audio/slow/cuantos-anos-tienes-505aa3f4.mp3"
+  },
+  {
+    "key": "¿de dónde eres?",
+    "text": "¿De dónde eres?",
+    "say": "¿De dónde eres?",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/de-donde-eres-8a3898b1.mp3",
+    "slow": "public/audio/slow/de-donde-eres-8a3898b1.mp3"
+  },
+  {
+    "key": "¿dónde está el baño?",
+    "text": "¿Dónde está el baño?",
+    "say": "¿Dónde está el baño?",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/donde-esta-el-bano-fc106fd0.mp3",
+    "slow": "public/audio/slow/donde-esta-el-bano-fc106fd0.mp3"
+  },
+  {
+    "key": "¿qué hora es?",
+    "text": "¿Qué hora es?",
+    "say": "¿Qué hora es?",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/que-hora-es-fd1f7f94.mp3",
+    "slow": "public/audio/slow/que-hora-es-fd1f7f94.mp3"
+  },
+  {
+    "key": "a",
+    "text": "a",
+    "say": "a",
+    "kind": "word",
+    "lessons": [
+      "directions",
+      "travel"
+    ],
+    "normal": "public/audio/normal/a-86f7e437.mp3",
+    "slow": "public/audio/slow/a-86f7e437.mp3"
+  },
+  {
+    "key": "a la derecha",
+    "text": "a la derecha",
+    "say": "a la derecha",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/a-la-derecha-058471a8.mp3",
+    "slow": "public/audio/slow/a-la-derecha-058471a8.mp3"
+  },
+  {
+    "key": "a la izquierda",
+    "text": "a la izquierda",
+    "say": "a la izquierda",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/a-la-izquierda-e1ffea86.mp3",
+    "slow": "public/audio/slow/a-la-izquierda-e1ffea86.mp3"
+  },
+  {
+    "key": "abuela",
+    "text": "abuela",
+    "say": "abuela",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/abuela-898cea3e.mp3",
+    "slow": "public/audio/slow/abuela-898cea3e.mp3"
+  },
+  {
+    "key": "abuelo",
+    "text": "abuelo",
+    "say": "abuelo",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/abuelo-8f76c681.mp3",
+    "slow": "public/audio/slow/abuelo-8f76c681.mp3"
+  },
+  {
+    "key": "acuesto",
+    "text": "acuesto",
+    "say": "acuesto",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/acuesto-c870184b.mp3",
+    "slow": "public/audio/slow/acuesto-c870184b.mp3"
+  },
+  {
+    "key": "adiós",
+    "text": "adiós",
+    "say": "adiós",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/adios-01674e46.mp3",
+    "slow": "public/audio/slow/adios-01674e46.mp3"
+  },
+  {
+    "key": "aeropuerto",
+    "text": "aeropuerto",
+    "say": "aeropuerto",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/aeropuerto-bec89fc5.mp3",
+    "slow": "public/audio/slow/aeropuerto-bec89fc5.mp3"
+  },
+  {
+    "key": "agua",
+    "text": "agua",
+    "say": "agua",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/agua-c1962c23.mp3",
+    "slow": "public/audio/slow/agua-c1962c23.mp3"
+  },
+  {
+    "key": "al",
+    "text": "al",
+    "say": "al",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/al-2f9ee2b3.mp3",
+    "slow": "public/audio/slow/al-2f9ee2b3.mp3"
+  },
+  {
+    "key": "amiga",
+    "text": "amiga",
+    "say": "amiga",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/amiga-11c67d63.mp3",
+    "slow": "public/audio/slow/amiga-11c67d63.mp3"
+  },
+  {
+    "key": "amigo",
+    "text": "amigo",
+    "say": "amigo",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/amigo-01f07beb.mp3",
+    "slow": "public/audio/slow/amigo-01f07beb.mp3"
+  },
+  {
+    "key": "ana",
+    "text": "Ana",
+    "say": "Ana",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/ana-72019bba.mp3",
+    "slow": "public/audio/slow/ana-72019bba.mp3"
+  },
+  {
+    "key": "años",
+    "text": "años",
+    "say": "años",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/anos-36b65867.mp3",
+    "slow": "public/audio/slow/anos-36b65867.mp3"
+  },
+  {
+    "key": "aquí",
+    "text": "aquí",
+    "say": "aquí",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/aqui-fe01be3c.mp3",
+    "slow": "public/audio/slow/aqui-fe01be3c.mp3"
+  },
+  {
+    "key": "arroz",
+    "text": "arroz",
+    "say": "arroz",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/arroz-fa9db510.mp3",
+    "slow": "public/audio/slow/arroz-fa9db510.mp3"
+  },
+  {
+    "key": "autobús",
+    "text": "autobús",
+    "say": "autobús",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/autobus-75b2634a.mp3",
+    "slow": "public/audio/slow/autobus-75b2634a.mp3"
+  },
+  {
+    "key": "avión",
+    "text": "avión",
+    "say": "avión",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/avion-1901d3a3.mp3",
+    "slow": "public/audio/slow/avion-1901d3a3.mp3"
+  },
+  {
+    "key": "banco",
+    "text": "banco",
+    "say": "banco",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/banco-8339f984.mp3",
+    "slow": "public/audio/slow/banco-8339f984.mp3"
+  },
+  {
+    "key": "baño",
+    "text": "baño",
+    "say": "baño",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/bano-1d7f53df.mp3",
+    "slow": "public/audio/slow/bano-1d7f53df.mp3"
+  },
+  {
+    "key": "barato",
+    "text": "barato",
+    "say": "barato",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/barato-33e8c86f.mp3",
+    "slow": "public/audio/slow/barato-33e8c86f.mp3"
+  },
+  {
+    "key": "baratos",
+    "text": "baratos",
+    "say": "baratos",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/baratos-ca7bbe05.mp3",
+    "slow": "public/audio/slow/baratos-ca7bbe05.mp3"
+  },
+  {
+    "key": "bebo",
+    "text": "bebo",
+    "say": "bebo",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/bebo-e0b0bcfb.mp3",
+    "slow": "public/audio/slow/bebo-e0b0bcfb.mp3"
+  },
+  {
+    "key": "bien",
+    "text": "bien",
+    "say": "bien",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/bien-d4e2f608.mp3",
+    "slow": "public/audio/slow/bien-d4e2f608.mp3"
+  },
+  {
+    "key": "boleto",
+    "text": "boleto",
+    "say": "boleto",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/boleto-0e1914c8.mp3",
+    "slow": "public/audio/slow/boleto-0e1914c8.mp3"
+  },
+  {
+    "key": "bolsa",
+    "text": "bolsa",
+    "say": "bolsa",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/bolsa-8ae69eed.mp3",
+    "slow": "public/audio/slow/bolsa-8ae69eed.mp3"
+  },
+  {
+    "key": "buen",
+    "text": "Buen",
+    "say": "Buen",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/buen-17c2bbb2.mp3",
+    "slow": "public/audio/slow/buen-17c2bbb2.mp3"
+  },
+  {
+    "key": "buen viaje",
+    "text": "buen viaje",
+    "say": "buen viaje",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/buen-viaje-ea8d4f1c.mp3",
+    "slow": "public/audio/slow/buen-viaje-ea8d4f1c.mp3"
+  },
+  {
+    "key": "buenas",
+    "text": "buenas",
+    "say": "buenas",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenas-c6b8cadd.mp3",
+    "slow": "public/audio/slow/buenas-c6b8cadd.mp3"
+  },
+  {
+    "key": "buenas noches",
+    "text": "buenas noches",
+    "say": "buenas noches",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenas-noches-ce6a70e6.mp3",
+    "slow": "public/audio/slow/buenas-noches-ce6a70e6.mp3"
+  },
+  {
+    "key": "buenas tardes",
+    "text": "buenas tardes",
+    "say": "buenas tardes",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenas-tardes-03367894.mp3",
+    "slow": "public/audio/slow/buenas-tardes-03367894.mp3"
+  },
+  {
+    "key": "buenos",
+    "text": "buenos",
+    "say": "buenos",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenos-a16d33dc.mp3",
+    "slow": "public/audio/slow/buenos-a16d33dc.mp3"
+  },
+  {
+    "key": "buenos días",
+    "text": "buenos días",
+    "say": "buenos días",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenos-dias-a25b998d.mp3",
+    "slow": "public/audio/slow/buenos-dias-a25b998d.mp3"
+  },
+  {
+    "key": "buenos días, ¿cómo estás?",
+    "text": "Buenos días, ¿cómo estás?",
+    "say": "Buenos días, ¿cómo estás?",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/buenos-dias-como-estas-415a376f.mp3",
+    "slow": "public/audio/slow/buenos-dias-como-estas-415a376f.mp3"
+  },
+  {
+    "key": "cada",
+    "text": "cada",
+    "say": "cada",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/cada-d1137b85.mp3",
+    "slow": "public/audio/slow/cada-d1137b85.mp3"
+  },
+  {
+    "key": "café",
+    "text": "café",
+    "say": "café",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/cafe-f424452a.mp3",
+    "slow": "public/audio/slow/cafe-f424452a.mp3"
+  },
+  {
+    "key": "calle",
+    "text": "calle",
+    "say": "calle",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/calle-8f9f97eb.mp3",
+    "slow": "public/audio/slow/calle-8f9f97eb.mp3"
+  },
+  {
+    "key": "calor",
+    "text": "calor",
+    "say": "calor",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/calor-58216156.mp3",
+    "slow": "public/audio/slow/calor-58216156.mp3"
+  },
+  {
+    "key": "camisa",
+    "text": "camisa",
+    "say": "camisa",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/camisa-90db2a49.mp3",
+    "slow": "public/audio/slow/camisa-90db2a49.mp3"
+  },
+  {
+    "key": "carlos",
+    "text": "Carlos",
+    "say": "Carlos",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/carlos-ab5e2bca.mp3",
+    "slow": "public/audio/slow/carlos-ab5e2bca.mp3"
+  },
+  {
+    "key": "caro",
+    "text": "caro",
+    "say": "caro",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/caro-732849d5.mp3",
+    "slow": "public/audio/slow/caro-732849d5.mp3"
+  },
+  {
+    "key": "ceno",
+    "text": "ceno",
+    "say": "ceno",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/ceno-20addb87.mp3",
+    "slow": "public/audio/slow/ceno-20addb87.mp3"
+  },
+  {
+    "key": "cerca",
+    "text": "cerca",
+    "say": "cerca",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/cerca-34bbe760.mp3",
+    "slow": "public/audio/slow/cerca-34bbe760.mp3"
+  },
+  {
+    "key": "chicago",
+    "text": "Chicago",
+    "say": "Chicago",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/chicago-1fff8c7b.mp3",
+    "slow": "public/audio/slow/chicago-1fff8c7b.mp3"
+  },
+  {
+    "key": "cinco",
+    "text": "cinco",
+    "say": "cinco",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/cinco-a097b33b.mp3",
+    "slow": "public/audio/slow/cinco-a097b33b.mp3"
+  },
+  {
+    "key": "como",
+    "text": "Como",
+    "say": "Como",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/como-ef70a170.mp3",
+    "slow": "public/audio/slow/como-ef70a170.mp3"
+  },
+  {
+    "key": "cómo",
+    "text": "cómo",
+    "say": "cómo",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "introductions"
+    ],
+    "normal": "public/audio/normal/como-f72338cc.mp3",
+    "slow": "public/audio/slow/como-f72338cc.mp3"
+  },
+  {
+    "key": "como pan y queso.",
+    "text": "Como pan y queso.",
+    "say": "Como pan y queso.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/como-pan-y-queso-b8f1652f.mp3",
+    "slow": "public/audio/slow/como-pan-y-queso-b8f1652f.mp3"
+  },
+  {
+    "key": "con",
+    "text": "con",
+    "say": "con",
+    "kind": "word",
+    "lessons": [
+      "food",
+      "daily-routine",
+      "shopping"
+    ],
+    "normal": "public/audio/normal/con-b1f6e510.mp3",
+    "slow": "public/audio/slow/con-b1f6e510.mp3"
+  },
+  {
+    "key": "cuánto",
+    "text": "Cuánto",
+    "say": "Cuánto",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/cuanto-f6af09e4.mp3",
+    "slow": "public/audio/slow/cuanto-f6af09e4.mp3"
+  },
+  {
+    "key": "cuántos",
+    "text": "Cuántos",
+    "say": "Cuántos",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/cuantos-1d71c6ab.mp3",
+    "slow": "public/audio/slow/cuantos-1d71c6ab.mp3"
+  },
+  {
+    "key": "cuatro",
+    "text": "cuatro",
+    "say": "cuatro",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/cuatro-a37e3bea.mp3",
+    "slow": "public/audio/slow/cuatro-a37e3bea.mp3"
+  },
+  {
+    "key": "cuenta",
+    "text": "cuenta",
+    "say": "cuenta",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/cuenta-de7f6b3e.mp3",
+    "slow": "public/audio/slow/cuenta-de7f6b3e.mp3"
+  },
+  {
+    "key": "cuesta",
+    "text": "cuesta",
+    "say": "cuesta",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/cuesta-425f38f5.mp3",
+    "slow": "public/audio/slow/cuesta-425f38f5.mp3"
+  },
+  {
+    "key": "de",
+    "text": "De",
+    "say": "De",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "introductions",
+      "family",
+      "food",
+      "directions"
+    ],
+    "normal": "public/audio/normal/de-600ccd1b.mp3",
+    "slow": "public/audio/slow/de-600ccd1b.mp3"
+  },
+  {
+    "key": "de nada",
+    "text": "de nada",
+    "say": "de nada",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/de-nada-671cfd4f.mp3",
+    "slow": "public/audio/slow/de-nada-671cfd4f.mp3"
+  },
+  {
+    "key": "de nada.",
+    "text": "De nada.",
+    "say": "De nada.",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/de-nada-a9a198ab.mp3",
+    "slow": "public/audio/slow/de-nada-a9a198ab.mp3"
+  },
+  {
+    "key": "derecha",
+    "text": "derecha",
+    "say": "derecha",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/derecha-50b42d71.mp3",
+    "slow": "public/audio/slow/derecha-50b42d71.mp3"
+  },
+  {
+    "key": "desayuno",
+    "text": "desayuno",
+    "say": "desayuno",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/desayuno-6987adf0.mp3",
+    "slow": "public/audio/slow/desayuno-6987adf0.mp3"
+  },
+  {
+    "key": "despierto",
+    "text": "despierto",
+    "say": "despierto",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/despierto-133c3f2f.mp3",
+    "slow": "public/audio/slow/despierto-133c3f2f.mp3"
+  },
+  {
+    "key": "día",
+    "text": "día",
+    "say": "día",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/dia-743a04a9.mp3",
+    "slow": "public/audio/slow/dia-743a04a9.mp3"
+  },
+  {
+    "key": "días",
+    "text": "días",
+    "say": "días",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/dias-fe85bc9e.mp3",
+    "slow": "public/audio/slow/dias-fe85bc9e.mp3"
+  },
+  {
+    "key": "diez",
+    "text": "diez",
+    "say": "diez",
+    "kind": "word",
+    "lessons": [
+      "numbers",
+      "shopping"
+    ],
+    "normal": "public/audio/normal/diez-8c95def6.mp3",
+    "slow": "public/audio/slow/diez-8c95def6.mp3"
+  },
+  {
+    "key": "dinero",
+    "text": "dinero",
+    "say": "dinero",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/dinero-19bfd1be.mp3",
+    "slow": "public/audio/slow/dinero-19bfd1be.mp3"
+  },
+  {
+    "key": "doctor",
+    "text": "doctor",
+    "say": "doctor",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/doctor-1f016007.mp3",
+    "slow": "public/audio/slow/doctor-1f016007.mp3"
+  },
+  {
+    "key": "dólares",
+    "text": "dólares",
+    "say": "dólares",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/dolares-7ca69e9f.mp3",
+    "slow": "public/audio/slow/dolares-7ca69e9f.mp3"
+  },
+  {
+    "key": "dónde",
+    "text": "dónde",
+    "say": "dónde",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "directions"
+    ],
+    "normal": "public/audio/normal/donde-df95f5c1.mp3",
+    "slow": "public/audio/slow/donde-df95f5c1.mp3"
+  },
+  {
+    "key": "dos",
+    "text": "dos",
+    "say": "dos",
+    "kind": "word",
+    "lessons": [
+      "numbers",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/dos-e67f16d2.mp3",
+    "slow": "public/audio/slow/dos-e67f16d2.mp3"
+  },
+  {
+    "key": "ducho",
+    "text": "ducho",
+    "say": "ducho",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/ducho-208307ce.mp3",
+    "slow": "public/audio/slow/ducho-208307ce.mp3"
+  },
+  {
+    "key": "el",
+    "text": "el",
+    "say": "el",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family",
+      "food",
+      "directions",
+      "shopping",
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-4f1ea4f0.mp3",
+    "slow": "public/audio/slow/el-4f1ea4f0.mp3"
+  },
+  {
+    "key": "él",
+    "text": "él",
+    "say": "él",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family"
+    ],
+    "normal": "public/audio/normal/el-b2277c5f.mp3",
+    "slow": "public/audio/slow/el-b2277c5f.mp3"
+  },
+  {
+    "key": "el abuelo",
+    "text": "el abuelo",
+    "say": "el abuelo",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/el-abuelo-733a89c3.mp3",
+    "slow": "public/audio/slow/el-abuelo-733a89c3.mp3"
+  },
+  {
+    "key": "el aeropuerto",
+    "text": "el aeropuerto",
+    "say": "el aeropuerto",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-aeropuerto-3d02587b.mp3",
+    "slow": "public/audio/slow/el-aeropuerto-3d02587b.mp3"
+  },
+  {
+    "key": "el agua",
+    "text": "el agua",
+    "say": "el agua",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-agua-76277cc0.mp3",
+    "slow": "public/audio/slow/el-agua-76277cc0.mp3"
+  },
+  {
+    "key": "el amigo",
+    "text": "el amigo",
+    "say": "el amigo",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/el-amigo-80476a2b.mp3",
+    "slow": "public/audio/slow/el-amigo-80476a2b.mp3"
+  },
+  {
+    "key": "el arroz",
+    "text": "el arroz",
+    "say": "el arroz",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-arroz-6cf99f04.mp3",
+    "slow": "public/audio/slow/el-arroz-6cf99f04.mp3"
+  },
+  {
+    "key": "el autobús",
+    "text": "el autobús",
+    "say": "el autobús",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-autobus-1c8c182a.mp3",
+    "slow": "public/audio/slow/el-autobus-1c8c182a.mp3"
+  },
+  {
+    "key": "el avión",
+    "text": "el avión",
+    "say": "el avión",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-avion-4c92ad9e.mp3",
+    "slow": "public/audio/slow/el-avion-4c92ad9e.mp3"
+  },
+  {
+    "key": "el banco",
+    "text": "el banco",
+    "say": "el banco",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/el-banco-d133c8ad.mp3",
+    "slow": "public/audio/slow/el-banco-d133c8ad.mp3"
+  },
+  {
+    "key": "el banco está en la esquina.",
+    "text": "El banco está en la esquina.",
+    "say": "El banco está en la esquina.",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/el-banco-esta-en-la-esquina-e715dc51.mp3",
+    "slow": "public/audio/slow/el-banco-esta-en-la-esquina-e715dc51.mp3"
+  },
+  {
+    "key": "el baño",
+    "text": "el baño",
+    "say": "el baño",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/el-bano-10687d17.mp3",
+    "slow": "public/audio/slow/el-bano-10687d17.mp3"
+  },
+  {
+    "key": "el boleto",
+    "text": "el boleto",
+    "say": "el boleto",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-boleto-12afb381.mp3",
+    "slow": "public/audio/slow/el-boleto-12afb381.mp3"
+  },
+  {
+    "key": "el café",
+    "text": "el café",
+    "say": "el café",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-cafe-b309e34c.mp3",
+    "slow": "public/audio/slow/el-cafe-b309e34c.mp3"
+  },
+  {
+    "key": "el dinero",
+    "text": "el dinero",
+    "say": "el dinero",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/el-dinero-51d41455.mp3",
+    "slow": "public/audio/slow/el-dinero-51d41455.mp3"
+  },
+  {
+    "key": "el doctor",
+    "text": "el doctor",
+    "say": "el doctor",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/el-doctor-0092fda6.mp3",
+    "slow": "public/audio/slow/el-doctor-0092fda6.mp3"
+  },
+  {
+    "key": "él es mi hijo.",
+    "text": "Él es mi hijo.",
+    "say": "Él es mi hijo.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/el-es-mi-hijo-8331c7f7.mp3",
+    "slow": "public/audio/slow/el-es-mi-hijo-8331c7f7.mp3"
+  },
+  {
+    "key": "el estudiante",
+    "text": "el estudiante",
+    "say": "el estudiante",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/el-estudiante-369d36c3.mp3",
+    "slow": "public/audio/slow/el-estudiante-369d36c3.mp3"
+  },
+  {
+    "key": "el hermano",
+    "text": "el hermano",
+    "say": "el hermano",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/el-hermano-3fd29a6d.mp3",
+    "slow": "public/audio/slow/el-hermano-3fd29a6d.mp3"
+  },
+  {
+    "key": "el hijo",
+    "text": "el hijo",
+    "say": "el hijo",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/el-hijo-6540f295.mp3",
+    "slow": "public/audio/slow/el-hijo-6540f295.mp3"
+  },
+  {
+    "key": "el hospital",
+    "text": "el hospital",
+    "say": "el hospital",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/el-hospital-8ccdea3c.mp3",
+    "slow": "public/audio/slow/el-hospital-8ccdea3c.mp3"
+  },
+  {
+    "key": "el hospital está cerca de aquí.",
+    "text": "El hospital está cerca de aquí.",
+    "say": "El hospital está cerca de aquí.",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/el-hospital-esta-cerca-de-aqui-df1ab3b4.mp3",
+    "slow": "public/audio/slow/el-hospital-esta-cerca-de-aqui-df1ab3b4.mp3"
+  },
+  {
+    "key": "el hotel",
+    "text": "el hotel",
+    "say": "el hotel",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-hotel-5a850769.mp3",
+    "slow": "public/audio/slow/el-hotel-5a850769.mp3"
+  },
+  {
+    "key": "el huevo",
+    "text": "el huevo",
+    "say": "el huevo",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-huevo-3d42edf7.mp3",
+    "slow": "public/audio/slow/el-huevo-3d42edf7.mp3"
+  },
+  {
+    "key": "el padre",
+    "text": "el padre",
+    "say": "el padre",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/el-padre-718435f1.mp3",
+    "slow": "public/audio/slow/el-padre-718435f1.mp3"
+  },
+  {
+    "key": "el pan",
+    "text": "el pan",
+    "say": "el pan",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-pan-fece107f.mp3",
+    "slow": "public/audio/slow/el-pan-fece107f.mp3"
+  },
+  {
+    "key": "el pasaporte",
+    "text": "el pasaporte",
+    "say": "el pasaporte",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-pasaporte-56c41581.mp3",
+    "slow": "public/audio/slow/el-pasaporte-56c41581.mp3"
+  },
+  {
+    "key": "el pollo",
+    "text": "el pollo",
+    "say": "el pollo",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-pollo-542047dd.mp3",
+    "slow": "public/audio/slow/el-pollo-542047dd.mp3"
+  },
+  {
+    "key": "el queso",
+    "text": "el queso",
+    "say": "el queso",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/el-queso-7ca684b5.mp3",
+    "slow": "public/audio/slow/el-queso-7ca684b5.mp3"
+  },
+  {
+    "key": "el sombrero",
+    "text": "el sombrero",
+    "say": "el sombrero",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/el-sombrero-b1f19b33.mp3",
+    "slow": "public/audio/slow/el-sombrero-b1f19b33.mp3"
+  },
+  {
+    "key": "el tren",
+    "text": "el tren",
+    "say": "el tren",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/el-tren-92c01ff2.mp3",
+    "slow": "public/audio/slow/el-tren-92c01ff2.mp3"
+  },
+  {
+    "key": "el vestido",
+    "text": "el vestido",
+    "say": "el vestido",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/el-vestido-0e640324.mp3",
+    "slow": "public/audio/slow/el-vestido-0e640324.mp3"
+  },
+  {
+    "key": "el vestido es muy caro.",
+    "text": "El vestido es muy caro.",
+    "say": "El vestido es muy caro.",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/el-vestido-es-muy-caro-36946bb0.mp3",
+    "slow": "public/audio/slow/el-vestido-es-muy-caro-36946bb0.mp3"
+  },
+  {
+    "key": "ella",
+    "text": "ella",
+    "say": "ella",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/ella-5edf31da.mp3",
+    "slow": "public/audio/slow/ella-5edf31da.mp3"
+  },
+  {
+    "key": "ella es mi amiga.",
+    "text": "Ella es mi amiga.",
+    "say": "Ella es mi amiga.",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/ella-es-mi-amiga-04f4b4a8.mp3",
+    "slow": "public/audio/slow/ella-es-mi-amiga-04f4b4a8.mp3"
+  },
+  {
+    "key": "en",
+    "text": "en",
+    "say": "en",
+    "kind": "word",
+    "lessons": [
+      "directions",
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/en-094b0fe0.mp3",
+    "slow": "public/audio/slow/en-094b0fe0.mp3"
+  },
+  {
+    "key": "en enero nieva en chicago.",
+    "text": "En enero nieva en Chicago.",
+    "say": "En enero nieva en Chicago.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/en-enero-nieva-en-chicago-c559adcd.mp3",
+    "slow": "public/audio/slow/en-enero-nieva-en-chicago-c559adcd.mp3"
+  },
+  {
+    "key": "enero",
+    "text": "enero",
+    "say": "enero",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/enero-6d5e647d.mp3",
+    "slow": "public/audio/slow/enero-6d5e647d.mp3"
+  },
+  {
+    "key": "eres",
+    "text": "eres",
+    "say": "eres",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/eres-a3ef4bb5.mp3",
+    "slow": "public/audio/slow/eres-a3ef4bb5.mp3"
+  },
+  {
+    "key": "es",
+    "text": "es",
+    "say": "es",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family",
+      "shopping",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/es-09cd68a2.mp3",
+    "slow": "public/audio/slow/es-09cd68a2.mp3"
+  },
+  {
+    "key": "es la una",
+    "text": "es la una",
+    "say": "es la una",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/es-la-una-715b8765.mp3",
+    "slow": "public/audio/slow/es-la-una-715b8765.mp3"
+  },
+  {
+    "key": "es la una y media.",
+    "text": "Es la una y media.",
+    "say": "Es la una y media.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/es-la-una-y-media-b1bc2068.mp3",
+    "slow": "public/audio/slow/es-la-una-y-media-b1bc2068.mp3"
+  },
+  {
+    "key": "español",
+    "text": "español",
+    "say": "español",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/espanol-d2a8463f.mp3",
+    "slow": "public/audio/slow/espanol-d2a8463f.mp3"
+  },
+  {
+    "key": "esquina",
+    "text": "esquina",
+    "say": "esquina",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/esquina-d29ae7b1.mp3",
+    "slow": "public/audio/slow/esquina-d29ae7b1.mp3"
+  },
+  {
+    "key": "está",
+    "text": "está",
+    "say": "está",
+    "kind": "word",
+    "lessons": [
+      "directions",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/esta-2d10807a.mp3",
+    "slow": "public/audio/slow/esta-2d10807a.mp3"
+  },
+  {
+    "key": "está nublado",
+    "text": "está nublado",
+    "say": "está nublado",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/esta-nublado-3f38597d.mp3",
+    "slow": "public/audio/slow/esta-nublado-3f38597d.mp3"
+  },
+  {
+    "key": "estación",
+    "text": "estación",
+    "say": "estación",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/estacion-1ccac4ca.mp3",
+    "slow": "public/audio/slow/estacion-1ccac4ca.mp3"
+  },
+  {
+    "key": "estados",
+    "text": "Estados",
+    "say": "Estados",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/estados-26047a5c.mp3",
+    "slow": "public/audio/slow/estados-26047a5c.mp3"
+  },
+  {
+    "key": "estados unidos",
+    "text": "Estados Unidos",
+    "say": "Estados Unidos",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/estados-unidos-6c8e2623.mp3",
+    "slow": "public/audio/slow/estados-unidos-6c8e2623.mp3"
+  },
+  {
+    "key": "estás",
+    "text": "estás",
+    "say": "estás",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/estas-f6b3e5bc.mp3",
+    "slow": "public/audio/slow/estas-f6b3e5bc.mp3"
+  },
+  {
+    "key": "este",
+    "text": "este",
+    "say": "este",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/este-3957e302.mp3",
+    "slow": "public/audio/slow/este-3957e302.mp3"
+  },
+  {
+    "key": "estudiante",
+    "text": "estudiante",
+    "say": "estudiante",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/estudiante-d5d4bc1d.mp3",
+    "slow": "public/audio/slow/estudiante-d5d4bc1d.mp3"
+  },
+  {
+    "key": "estudio",
+    "text": "estudio",
+    "say": "estudio",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/estudio-c08f8437.mp3",
+    "slow": "public/audio/slow/estudio-c08f8437.mp3"
+  },
+  {
+    "key": "familia",
+    "text": "familia",
+    "say": "familia",
+    "kind": "word",
+    "lessons": [
+      "family",
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/familia-3b660a83.mp3",
+    "slow": "public/audio/slow/familia-3b660a83.mp3"
+  },
+  {
+    "key": "favor",
+    "text": "favor",
+    "say": "favor",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "food",
+      "travel"
+    ],
+    "normal": "public/audio/normal/favor-a399328a.mp3",
+    "slow": "public/audio/slow/favor-a399328a.mp3"
+  },
+  {
+    "key": "frío",
+    "text": "frío",
+    "say": "frío",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/frio-3672f947.mp3",
+    "slow": "public/audio/slow/frio-3672f947.mp3"
+  },
+  {
+    "key": "gatos",
+    "text": "gatos",
+    "say": "gatos",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/gatos-d9cf7ba5.mp3",
+    "slow": "public/audio/slow/gatos-d9cf7ba5.mp3"
+  },
+  {
+    "key": "gira",
+    "text": "Gira",
+    "say": "Gira",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/gira-0a6e47c7.mp3",
+    "slow": "public/audio/slow/gira-0a6e47c7.mp3"
+  },
+  {
+    "key": "gira a la derecha.",
+    "text": "Gira a la derecha.",
+    "say": "Gira a la derecha.",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/gira-a-la-derecha-b213d7cd.mp3",
+    "slow": "public/audio/slow/gira-a-la-derecha-b213d7cd.mp3"
+  },
+  {
+    "key": "gracias",
+    "text": "gracias",
+    "say": "gracias",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/gracias-a30b3970.mp3",
+    "slow": "public/audio/slow/gracias-a30b3970.mp3"
+  },
+  {
+    "key": "gracias, hasta luego.",
+    "text": "Gracias, hasta luego.",
+    "say": "Gracias, hasta luego.",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/gracias-hasta-luego-beb328dc.mp3",
+    "slow": "public/audio/slow/gracias-hasta-luego-beb328dc.mp3"
+  },
+  {
+    "key": "grande",
+    "text": "grande",
+    "say": "grande",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/grande-35272bf8.mp3",
+    "slow": "public/audio/slow/grande-35272bf8.mp3"
+  },
+  {
+    "key": "gusta",
+    "text": "gusta",
+    "say": "gusta",
+    "kind": "word",
+    "lessons": [
+      "food",
+      "travel"
+    ],
+    "normal": "public/audio/normal/gusta-f1d19676.mp3",
+    "slow": "public/audio/slow/gusta-f1d19676.mp3"
+  },
+  {
+    "key": "gusto",
+    "text": "gusto",
+    "say": "gusto",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/gusto-96959832.mp3",
+    "slow": "public/audio/slow/gusto-96959832.mp3"
+  },
+  {
+    "key": "habitación",
+    "text": "habitación",
+    "say": "habitación",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/habitacion-bbd0d81f.mp3",
+    "slow": "public/audio/slow/habitacion-bbd0d81f.mp3"
+  },
+  {
+    "key": "hace",
+    "text": "hace",
+    "say": "hace",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-1720fb98.mp3",
+    "slow": "public/audio/slow/hace-1720fb98.mp3"
+  },
+  {
+    "key": "hace calor",
+    "text": "hace calor",
+    "say": "hace calor",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-calor-41582c3e.mp3",
+    "slow": "public/audio/slow/hace-calor-41582c3e.mp3"
+  },
+  {
+    "key": "hace frío",
+    "text": "hace frío",
+    "say": "hace frío",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-frio-a606e0e6.mp3",
+    "slow": "public/audio/slow/hace-frio-a606e0e6.mp3"
+  },
+  {
+    "key": "hace mucho sol hoy.",
+    "text": "Hace mucho sol hoy.",
+    "say": "Hace mucho sol hoy.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-mucho-sol-hoy-3bd87b0c.mp3",
+    "slow": "public/audio/slow/hace-mucho-sol-hoy-3bd87b0c.mp3"
+  },
+  {
+    "key": "hace mucho viento hoy.",
+    "text": "Hace mucho viento hoy.",
+    "say": "Hace mucho viento hoy.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-mucho-viento-hoy-4275015c.mp3",
+    "slow": "public/audio/slow/hace-mucho-viento-hoy-4275015c.mp3"
+  },
+  {
+    "key": "hace sol",
+    "text": "hace sol",
+    "say": "hace sol",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-sol-5143f3ef.mp3",
+    "slow": "public/audio/slow/hace-sol-5143f3ef.mp3"
+  },
+  {
+    "key": "hace viento",
+    "text": "hace viento",
+    "say": "hace viento",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hace-viento-0d9b1109.mp3",
+    "slow": "public/audio/slow/hace-viento-0d9b1109.mp3"
+  },
+  {
+    "key": "hambre",
+    "text": "hambre",
+    "say": "hambre",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/hambre-17ab8387.mp3",
+    "slow": "public/audio/slow/hambre-17ab8387.mp3"
+  },
+  {
+    "key": "hasta",
+    "text": "hasta",
+    "say": "hasta",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/hasta-720f754f.mp3",
+    "slow": "public/audio/slow/hasta-720f754f.mp3"
+  },
+  {
+    "key": "hasta luego",
+    "text": "hasta luego",
+    "say": "hasta luego",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/hasta-luego-15fee480.mp3",
+    "slow": "public/audio/slow/hasta-luego-15fee480.mp3"
+  },
+  {
+    "key": "hay",
+    "text": "Hay",
+    "say": "Hay",
+    "kind": "word",
+    "lessons": [
+      "numbers",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hay-ebddd6b2.mp3",
+    "slow": "public/audio/slow/hay-ebddd6b2.mp3"
+  },
+  {
+    "key": "hay cuatro libros.",
+    "text": "Hay cuatro libros.",
+    "say": "Hay cuatro libros.",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/hay-cuatro-libros-826f624c.mp3",
+    "slow": "public/audio/slow/hay-cuatro-libros-826f624c.mp3"
+  },
+  {
+    "key": "hay siete libros.",
+    "text": "Hay siete libros.",
+    "say": "Hay siete libros.",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/hay-siete-libros-ddfe764f.mp3",
+    "slow": "public/audio/slow/hay-siete-libros-ddfe764f.mp3"
+  },
+  {
+    "key": "hermana",
+    "text": "hermana",
+    "say": "hermana",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/hermana-3bb240ea.mp3",
+    "slow": "public/audio/slow/hermana-3bb240ea.mp3"
+  },
+  {
+    "key": "hermano",
+    "text": "hermano",
+    "say": "hermano",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/hermano-9587a830.mp3",
+    "slow": "public/audio/slow/hermano-9587a830.mp3"
+  },
+  {
+    "key": "hermanos",
+    "text": "hermanos",
+    "say": "hermanos",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/hermanos-2f6cbfde.mp3",
+    "slow": "public/audio/slow/hermanos-2f6cbfde.mp3"
+  },
+  {
+    "key": "hija",
+    "text": "hija",
+    "say": "hija",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/hija-15df9746.mp3",
+    "slow": "public/audio/slow/hija-15df9746.mp3"
+  },
+  {
+    "key": "hijo",
+    "text": "hijo",
+    "say": "hijo",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/hijo-cf233a5c.mp3",
+    "slow": "public/audio/slow/hijo-cf233a5c.mp3"
+  },
+  {
+    "key": "hola",
+    "text": "hola",
+    "say": "hola",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/hola-99800b85.mp3",
+    "slow": "public/audio/slow/hola-99800b85.mp3"
+  },
+  {
+    "key": "hola, ¿cómo estás?",
+    "text": "Hola, ¿cómo estás?",
+    "say": "Hola, ¿cómo estás?",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/hola-como-estas-20aafc03.mp3",
+    "slow": "public/audio/slow/hola-como-estas-20aafc03.mp3"
+  },
+  {
+    "key": "hora",
+    "text": "hora",
+    "say": "hora",
+    "kind": "word",
+    "lessons": [
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/hora-623aeb8c.mp3",
+    "slow": "public/audio/slow/hora-623aeb8c.mp3"
+  },
+  {
+    "key": "hospital",
+    "text": "hospital",
+    "say": "hospital",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/hospital-2b2d005e.mp3",
+    "slow": "public/audio/slow/hospital-2b2d005e.mp3"
+  },
+  {
+    "key": "hotel",
+    "text": "hotel",
+    "say": "hotel",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/hotel-14e83355.mp3",
+    "slow": "public/audio/slow/hotel-14e83355.mp3"
+  },
+  {
+    "key": "hoy",
+    "text": "hoy",
+    "say": "hoy",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hoy-ec80f569.mp3",
+    "slow": "public/audio/slow/hoy-ec80f569.mp3"
+  },
+  {
+    "key": "hoy hace mucho frío.",
+    "text": "Hoy hace mucho frío.",
+    "say": "Hoy hace mucho frío.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hoy-hace-mucho-frio-b6a67936.mp3",
+    "slow": "public/audio/slow/hoy-hace-mucho-frio-b6a67936.mp3"
+  },
+  {
+    "key": "hoy hace mucho sol.",
+    "text": "Hoy hace mucho sol.",
+    "say": "Hoy hace mucho sol.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/hoy-hace-mucho-sol-1c5601db.mp3",
+    "slow": "public/audio/slow/hoy-hace-mucho-sol-1c5601db.mp3"
+  },
+  {
+    "key": "huevo",
+    "text": "huevo",
+    "say": "huevo",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/huevo-12c2d512.mp3",
+    "slow": "public/audio/slow/huevo-12c2d512.mp3"
+  },
+  {
+    "key": "izquierda",
+    "text": "izquierda",
+    "say": "izquierda",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/izquierda-61cc6a59.mp3",
+    "slow": "public/audio/slow/izquierda-61cc6a59.mp3"
+  },
+  {
+    "key": "la",
+    "text": "la",
+    "say": "la",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family",
+      "food",
+      "daily-routine",
+      "directions",
+      "shopping",
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/la-3efd4c0f.mp3",
+    "slow": "public/audio/slow/la-3efd4c0f.mp3"
+  },
+  {
+    "key": "la abuela",
+    "text": "la abuela",
+    "say": "la abuela",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/la-abuela-8c4715c9.mp3",
+    "slow": "public/audio/slow/la-abuela-8c4715c9.mp3"
+  },
+  {
+    "key": "la bolsa",
+    "text": "la bolsa",
+    "say": "la bolsa",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/la-bolsa-bb03423f.mp3",
+    "slow": "public/audio/slow/la-bolsa-bb03423f.mp3"
+  },
+  {
+    "key": "la bolsa cuesta diez dólares.",
+    "text": "La bolsa cuesta diez dólares.",
+    "say": "La bolsa cuesta diez dólares.",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/la-bolsa-cuesta-diez-dolares-80b6ea1e.mp3",
+    "slow": "public/audio/slow/la-bolsa-cuesta-diez-dolares-80b6ea1e.mp3"
+  },
+  {
+    "key": "la calle",
+    "text": "la calle",
+    "say": "la calle",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/la-calle-7a0a8927.mp3",
+    "slow": "public/audio/slow/la-calle-7a0a8927.mp3"
+  },
+  {
+    "key": "la camisa",
+    "text": "la camisa",
+    "say": "la camisa",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/la-camisa-9decbe6a.mp3",
+    "slow": "public/audio/slow/la-camisa-9decbe6a.mp3"
+  },
+  {
+    "key": "la cuenta, por favor.",
+    "text": "La cuenta, por favor.",
+    "say": "La cuenta, por favor.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/la-cuenta-por-favor-54d9c8f4.mp3",
+    "slow": "public/audio/slow/la-cuenta-por-favor-54d9c8f4.mp3"
+  },
+  {
+    "key": "la esquina",
+    "text": "la esquina",
+    "say": "la esquina",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/la-esquina-c7a4d4d4.mp3",
+    "slow": "public/audio/slow/la-esquina-c7a4d4d4.mp3"
+  },
+  {
+    "key": "la estación",
+    "text": "la estación",
+    "say": "la estación",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/la-estacion-46444460.mp3",
+    "slow": "public/audio/slow/la-estacion-46444460.mp3"
+  },
+  {
+    "key": "la estación está muy lejos.",
+    "text": "La estación está muy lejos.",
+    "say": "La estación está muy lejos.",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/la-estacion-esta-muy-lejos-9f9fd522.mp3",
+    "slow": "public/audio/slow/la-estacion-esta-muy-lejos-9f9fd522.mp3"
+  },
+  {
+    "key": "la hermana",
+    "text": "la hermana",
+    "say": "la hermana",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/la-hermana-7f92ddf4.mp3",
+    "slow": "public/audio/slow/la-hermana-7f92ddf4.mp3"
+  },
+  {
+    "key": "la hija",
+    "text": "la hija",
+    "say": "la hija",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/la-hija-27351904.mp3",
+    "slow": "public/audio/slow/la-hija-27351904.mp3"
+  },
+  {
+    "key": "la leche",
+    "text": "la leche",
+    "say": "la leche",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/la-leche-0af6e3fd.mp3",
+    "slow": "public/audio/slow/la-leche-0af6e3fd.mp3"
+  },
+  {
+    "key": "la madre",
+    "text": "la madre",
+    "say": "la madre",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/la-madre-a0db3082.mp3",
+    "slow": "public/audio/slow/la-madre-a0db3082.mp3"
+  },
+  {
+    "key": "la maestra",
+    "text": "la maestra",
+    "say": "la maestra",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/la-maestra-fe41ed31.mp3",
+    "slow": "public/audio/slow/la-maestra-fe41ed31.mp3"
+  },
+  {
+    "key": "la maleta",
+    "text": "la maleta",
+    "say": "la maleta",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/la-maleta-56429c36.mp3",
+    "slow": "public/audio/slow/la-maleta-56429c36.mp3"
+  },
+  {
+    "key": "la manzana",
+    "text": "la manzana",
+    "say": "la manzana",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/la-manzana-422210b0.mp3",
+    "slow": "public/audio/slow/la-manzana-422210b0.mp3"
+  },
+  {
+    "key": "la playa",
+    "text": "la playa",
+    "say": "la playa",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/la-playa-04bbc2c5.mp3",
+    "slow": "public/audio/slow/la-playa-04bbc2c5.mp3"
+  },
+  {
+    "key": "la sopa",
+    "text": "la sopa",
+    "say": "la sopa",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/la-sopa-5b823e09.mp3",
+    "slow": "public/audio/slow/la-sopa-5b823e09.mp3"
+  },
+  {
+    "key": "la tienda",
+    "text": "la tienda",
+    "say": "la tienda",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/la-tienda-ae81c164.mp3",
+    "slow": "public/audio/slow/la-tienda-ae81c164.mp3"
+  },
+  {
+    "key": "las",
+    "text": "las",
+    "say": "las",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/las-5db3d4f1.mp3",
+    "slow": "public/audio/slow/las-5db3d4f1.mp3"
+  },
+  {
+    "key": "leche",
+    "text": "leche",
+    "say": "leche",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/leche-3c60405a.mp3",
+    "slow": "public/audio/slow/leche-3c60405a.mp3"
+  },
+  {
+    "key": "lejos",
+    "text": "lejos",
+    "say": "lejos",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/lejos-96b5d8f2.mp3",
+    "slow": "public/audio/slow/lejos-96b5d8f2.mp3"
+  },
+  {
+    "key": "libros",
+    "text": "libros",
+    "say": "libros",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/libros-dddfdae9.mp3",
+    "slow": "public/audio/slow/libros-dddfdae9.mp3"
+  },
+  {
+    "key": "llama",
+    "text": "llama",
+    "say": "llama",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/llama-ad4ba4cc.mp3",
+    "slow": "public/audio/slow/llama-ad4ba4cc.mp3"
+  },
+  {
+    "key": "llamas",
+    "text": "llamas",
+    "say": "llamas",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/llamas-f2e2d844.mp3",
+    "slow": "public/audio/slow/llamas-f2e2d844.mp3"
+  },
+  {
+    "key": "llamo",
+    "text": "llamo",
+    "say": "llamo",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/llamo-dd125b49.mp3",
+    "slow": "public/audio/slow/llamo-dd125b49.mp3"
+  },
+  {
+    "key": "llueve",
+    "text": "llueve",
+    "say": "llueve",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/llueve-e9833547.mp3",
+    "slow": "public/audio/slow/llueve-e9833547.mp3"
+  },
+  {
+    "key": "los",
+    "text": "los",
+    "say": "los",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/los-71c61afd.mp3",
+    "slow": "public/audio/slow/los-71c61afd.mp3"
+  },
+  {
+    "key": "los zapatos",
+    "text": "los zapatos",
+    "say": "los zapatos",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/los-zapatos-7122f340.mp3",
+    "slow": "public/audio/slow/los-zapatos-7122f340.mp3"
+  },
+  {
+    "key": "los zapatos son muy baratos.",
+    "text": "Los zapatos son muy baratos.",
+    "say": "Los zapatos son muy baratos.",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/los-zapatos-son-muy-baratos-a4dcf49d.mp3",
+    "slow": "public/audio/slow/los-zapatos-son-muy-baratos-a4dcf49d.mp3"
+  },
+  {
+    "key": "luego",
+    "text": "luego",
+    "say": "luego",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/luego-11e6ab9f.mp3",
+    "slow": "public/audio/slow/luego-11e6ab9f.mp3"
+  },
+  {
+    "key": "madre",
+    "text": "madre",
+    "say": "madre",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/madre-10c4070b.mp3",
+    "slow": "public/audio/slow/madre-10c4070b.mp3"
+  },
+  {
+    "key": "madrid",
+    "text": "Madrid",
+    "say": "Madrid",
+    "kind": "word",
+    "lessons": [
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/madrid-6c1e0629.mp3",
+    "slow": "public/audio/slow/madrid-6c1e0629.mp3"
+  },
+  {
+    "key": "maestra",
+    "text": "maestra",
+    "say": "maestra",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/maestra-65c6b5f3.mp3",
+    "slow": "public/audio/slow/maestra-65c6b5f3.mp3"
+  },
+  {
+    "key": "maleta",
+    "text": "maleta",
+    "say": "maleta",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/maleta-afa2148c.mp3",
+    "slow": "public/audio/slow/maleta-afa2148c.mp3"
+  },
+  {
+    "key": "manzana",
+    "text": "manzana",
+    "say": "manzana",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/manzana-6cc76bdd.mp3",
+    "slow": "public/audio/slow/manzana-6cc76bdd.mp3"
+  },
+  {
+    "key": "mañana",
+    "text": "mañana",
+    "say": "mañana",
+    "kind": "word",
+    "lessons": [
+      "daily-routine",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/manana-8727ae65.mp3",
+    "slow": "public/audio/slow/manana-8727ae65.mp3"
+  },
+  {
+    "key": "me",
+    "text": "Me",
+    "say": "Me",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "food",
+      "daily-routine",
+      "travel"
+    ],
+    "normal": "public/audio/normal/me-b1c1d873.mp3",
+    "slow": "public/audio/slow/me-b1c1d873.mp3"
+  },
+  {
+    "key": "me acuesto",
+    "text": "me acuesto",
+    "say": "me acuesto",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-acuesto-3ede7fe2.mp3",
+    "slow": "public/audio/slow/me-acuesto-3ede7fe2.mp3"
+  },
+  {
+    "key": "me acuesto muy tarde.",
+    "text": "Me acuesto muy tarde.",
+    "say": "Me acuesto muy tarde.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-acuesto-muy-tarde-919ffa1a.mp3",
+    "slow": "public/audio/slow/me-acuesto-muy-tarde-919ffa1a.mp3"
+  },
+  {
+    "key": "me despierto",
+    "text": "me despierto",
+    "say": "me despierto",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-despierto-feb1af5d.mp3",
+    "slow": "public/audio/slow/me-despierto-feb1af5d.mp3"
+  },
+  {
+    "key": "me despierto temprano.",
+    "text": "Me despierto temprano.",
+    "say": "Me despierto temprano.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-despierto-temprano-7a779ee3.mp3",
+    "slow": "public/audio/slow/me-despierto-temprano-7a779ee3.mp3"
+  },
+  {
+    "key": "me ducho",
+    "text": "me ducho",
+    "say": "me ducho",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-ducho-cce2bde3.mp3",
+    "slow": "public/audio/slow/me-ducho-cce2bde3.mp3"
+  },
+  {
+    "key": "me ducho por la mañana.",
+    "text": "Me ducho por la mañana.",
+    "say": "Me ducho por la mañana.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/me-ducho-por-la-manana-54ba8902.mp3",
+    "slow": "public/audio/slow/me-ducho-por-la-manana-54ba8902.mp3"
+  },
+  {
+    "key": "me gusta",
+    "text": "me gusta",
+    "say": "me gusta",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/me-gusta-3a15de23.mp3",
+    "slow": "public/audio/slow/me-gusta-3a15de23.mp3"
+  },
+  {
+    "key": "me gusta el pollo con arroz.",
+    "text": "Me gusta el pollo con arroz.",
+    "say": "Me gusta el pollo con arroz.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/me-gusta-el-pollo-con-arroz-b0e65ff9.mp3",
+    "slow": "public/audio/slow/me-gusta-el-pollo-con-arroz-b0e65ff9.mp3"
+  },
+  {
+    "key": "me gusta viajar en tren.",
+    "text": "Me gusta viajar en tren.",
+    "say": "Me gusta viajar en tren.",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/me-gusta-viajar-en-tren-1b309a95.mp3",
+    "slow": "public/audio/slow/me-gusta-viajar-en-tren-1b309a95.mp3"
+  },
+  {
+    "key": "me llamo",
+    "text": "me llamo",
+    "say": "me llamo",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/me-llamo-594023f5.mp3",
+    "slow": "public/audio/slow/me-llamo-594023f5.mp3"
+  },
+  {
+    "key": "me llamo ana.",
+    "text": "Me llamo Ana.",
+    "say": "Me llamo Ana.",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/me-llamo-ana-b870f096.mp3",
+    "slow": "public/audio/slow/me-llamo-ana-b870f096.mp3"
+  },
+  {
+    "key": "me llamo carlos.",
+    "text": "Me llamo Carlos.",
+    "say": "Me llamo Carlos.",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/me-llamo-carlos-e4600b46.mp3",
+    "slow": "public/audio/slow/me-llamo-carlos-e4600b46.mp3"
+  },
+  {
+    "key": "media",
+    "text": "media",
+    "say": "media",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/media-bb362a46.mp3",
+    "slow": "public/audio/slow/media-bb362a46.mp3"
+  },
+  {
+    "key": "méxico",
+    "text": "México",
+    "say": "México",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mexico-ba74ec4c.mp3",
+    "slow": "public/audio/slow/mexico-ba74ec4c.mp3"
+  },
+  {
+    "key": "mi",
+    "text": "mi",
+    "say": "mi",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family",
+      "daily-routine",
+      "travel"
+    ],
+    "normal": "public/audio/normal/mi-9c51ad86.mp3",
+    "slow": "public/audio/slow/mi-9c51ad86.mp3"
+  },
+  {
+    "key": "mi abuela es muy simpática.",
+    "text": "Mi abuela es muy simpática.",
+    "say": "Mi abuela es muy simpática.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mi-abuela-es-muy-simpatica-b65b976a.mp3",
+    "slow": "public/audio/slow/mi-abuela-es-muy-simpatica-b65b976a.mp3"
+  },
+  {
+    "key": "mi familia es grande.",
+    "text": "Mi familia es grande.",
+    "say": "Mi familia es grande.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mi-familia-es-grande-d2b63986.mp3",
+    "slow": "public/audio/slow/mi-familia-es-grande-d2b63986.mp3"
+  },
+  {
+    "key": "mi madre se llama rosa.",
+    "text": "Mi madre se llama Rosa.",
+    "say": "Mi madre se llama Rosa.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mi-madre-se-llama-rosa-6ec4e797.mp3",
+    "slow": "public/audio/slow/mi-madre-se-llama-rosa-6ec4e797.mp3"
+  },
+  {
+    "key": "mis",
+    "text": "mis",
+    "say": "mis",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mis-520104c0.mp3",
+    "slow": "public/audio/slow/mis-520104c0.mp3"
+  },
+  {
+    "key": "mis hermanos son simpáticos.",
+    "text": "Mis hermanos son simpáticos.",
+    "say": "Mis hermanos son simpáticos.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mis-hermanos-son-simpaticos-7b520dc4.mp3",
+    "slow": "public/audio/slow/mis-hermanos-son-simpaticos-7b520dc4.mp3"
+  },
+  {
+    "key": "mis padres son de méxico.",
+    "text": "Mis padres son de México.",
+    "say": "Mis padres son de México.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/mis-padres-son-de-mexico-21005b39.mp3",
+    "slow": "public/audio/slow/mis-padres-son-de-mexico-21005b39.mp3"
+  },
+  {
+    "key": "mucha",
+    "text": "mucha",
+    "say": "mucha",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/mucha-fe80ecce.mp3",
+    "slow": "public/audio/slow/mucha-fe80ecce.mp3"
+  },
+  {
+    "key": "mucho",
+    "text": "Mucho",
+    "say": "Mucho",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/mucho-5629cc17.mp3",
+    "slow": "public/audio/slow/mucho-5629cc17.mp3"
+  },
+  {
+    "key": "mucho gusto",
+    "text": "mucho gusto",
+    "say": "mucho gusto",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/mucho-gusto-93bc2cec.mp3",
+    "slow": "public/audio/slow/mucho-gusto-93bc2cec.mp3"
+  },
+  {
+    "key": "mucho gusto.",
+    "text": "Mucho gusto.",
+    "say": "Mucho gusto.",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/mucho-gusto-788ea6dd.mp3",
+    "slow": "public/audio/slow/mucho-gusto-788ea6dd.mp3"
+  },
+  {
+    "key": "muy",
+    "text": "Muy",
+    "say": "Muy",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "family",
+      "daily-routine",
+      "directions",
+      "shopping"
+    ],
+    "normal": "public/audio/normal/muy-060ab0c0.mp3",
+    "slow": "public/audio/slow/muy-060ab0c0.mp3"
+  },
+  {
+    "key": "muy bien, gracias.",
+    "text": "Muy bien, gracias.",
+    "say": "Muy bien, gracias.",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/muy-bien-gracias-769c200d.mp3",
+    "slow": "public/audio/slow/muy-bien-gracias-769c200d.mp3"
+  },
+  {
+    "key": "nada",
+    "text": "nada",
+    "say": "nada",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/nada-a3fcfe3a.mp3",
+    "slow": "public/audio/slow/nada-a3fcfe3a.mp3"
+  },
+  {
+    "key": "necesito",
+    "text": "Necesito",
+    "say": "Necesito",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/necesito-06d5d444.mp3",
+    "slow": "public/audio/slow/necesito-06d5d444.mp3"
+  },
+  {
+    "key": "necesito mi pasaporte.",
+    "text": "Necesito mi pasaporte.",
+    "say": "Necesito mi pasaporte.",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/necesito-mi-pasaporte-e1560348.mp3",
+    "slow": "public/audio/slow/necesito-mi-pasaporte-e1560348.mp3"
+  },
+  {
+    "key": "nieva",
+    "text": "nieva",
+    "say": "nieva",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/nieva-76c89b18.mp3",
+    "slow": "public/audio/slow/nieva-76c89b18.mp3"
+  },
+  {
+    "key": "noche",
+    "text": "noche",
+    "say": "noche",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/noche-fdadc53e.mp3",
+    "slow": "public/audio/slow/noche-fdadc53e.mp3"
+  },
+  {
+    "key": "noches",
+    "text": "noches",
+    "say": "noches",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/noches-ef325933.mp3",
+    "slow": "public/audio/slow/noches-ef325933.mp3"
+  },
+  {
+    "key": "nublado",
+    "text": "nublado",
+    "say": "nublado",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/nublado-b5dc1388.mp3",
+    "slow": "public/audio/slow/nublado-b5dc1388.mp3"
+  },
+  {
+    "key": "nueve",
+    "text": "nueve",
+    "say": "nueve",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/nueve-0a1307a0.mp3",
+    "slow": "public/audio/slow/nueve-0a1307a0.mp3"
+  },
+  {
+    "key": "ocho",
+    "text": "ocho",
+    "say": "ocho",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/ocho-311047fb.mp3",
+    "slow": "public/audio/slow/ocho-311047fb.mp3"
+  },
+  {
+    "key": "padre",
+    "text": "padre",
+    "say": "padre",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/padre-05d4ac9a.mp3",
+    "slow": "public/audio/slow/padre-05d4ac9a.mp3"
+  },
+  {
+    "key": "padres",
+    "text": "padres",
+    "say": "padres",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/padres-188ccfab.mp3",
+    "slow": "public/audio/slow/padres-188ccfab.mp3"
+  },
+  {
+    "key": "pagar",
+    "text": "pagar",
+    "say": "pagar",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/pagar-7b125739.mp3",
+    "slow": "public/audio/slow/pagar-7b125739.mp3"
+  },
+  {
+    "key": "pan",
+    "text": "pan",
+    "say": "pan",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/pan-bd2bd821.mp3",
+    "slow": "public/audio/slow/pan-bd2bd821.mp3"
+  },
+  {
+    "key": "pasaporte",
+    "text": "pasaporte",
+    "say": "pasaporte",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/pasaporte-ab095133.mp3",
+    "slow": "public/audio/slow/pasaporte-ab095133.mp3"
+  },
+  {
+    "key": "pequeña",
+    "text": "pequeña",
+    "say": "pequeña",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/pequena-1dc975ae.mp3",
+    "slow": "public/audio/slow/pequena-1dc975ae.mp3"
+  },
+  {
+    "key": "perdón",
+    "text": "Perdón",
+    "say": "Perdón",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/perdon-e2b4cc30.mp3",
+    "slow": "public/audio/slow/perdon-e2b4cc30.mp3"
+  },
+  {
+    "key": "perdón, ¿dónde está la estación?",
+    "text": "Perdón, ¿dónde está la estación?",
+    "say": "Perdón, ¿dónde está la estación?",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/perdon-donde-esta-la-estacion-8e6c95b9.mp3",
+    "slow": "public/audio/slow/perdon-donde-esta-la-estacion-8e6c95b9.mp3"
+  },
+  {
+    "key": "playa",
+    "text": "playa",
+    "say": "playa",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/playa-abd5cf4f.mp3",
+    "slow": "public/audio/slow/playa-abd5cf4f.mp3"
+  },
+  {
+    "key": "pollo",
+    "text": "pollo",
+    "say": "pollo",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/pollo-0db6b74a.mp3",
+    "slow": "public/audio/slow/pollo-0db6b74a.mp3"
+  },
+  {
+    "key": "por",
+    "text": "por",
+    "say": "por",
+    "kind": "word",
+    "lessons": [
+      "greetings",
+      "food",
+      "daily-routine",
+      "travel"
+    ],
+    "normal": "public/audio/normal/por-0e443496.mp3",
+    "slow": "public/audio/slow/por-0e443496.mp3"
+  },
+  {
+    "key": "por favor",
+    "text": "por favor",
+    "say": "por favor",
+    "kind": "sentence",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/por-favor-e392209e.mp3",
+    "slow": "public/audio/slow/por-favor-e392209e.mp3"
+  },
+  {
+    "key": "por la mañana",
+    "text": "por la mañana",
+    "say": "por la mañana",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/por-la-manana-f090afb8.mp3",
+    "slow": "public/audio/slow/por-la-manana-f090afb8.mp3"
+  },
+  {
+    "key": "por la noche",
+    "text": "por la noche",
+    "say": "por la noche",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/por-la-noche-152b55e1.mp3",
+    "slow": "public/audio/slow/por-la-noche-152b55e1.mp3"
+  },
+  {
+    "key": "por la noche, ceno con mi familia.",
+    "text": "Por la noche, ceno con mi familia.",
+    "say": "Por la noche, ceno con mi familia.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/por-la-noche-ceno-con-mi-familia-67c9d9ab.mp3",
+    "slow": "public/audio/slow/por-la-noche-ceno-con-mi-familia-67c9d9ab.mp3"
+  },
+  {
+    "key": "qué",
+    "text": "Qué",
+    "say": "Qué",
+    "kind": "word",
+    "lessons": [
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/que-d91707e6.mp3",
+    "slow": "public/audio/slow/que-d91707e6.mp3"
+  },
+  {
+    "key": "queso",
+    "text": "queso",
+    "say": "queso",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/queso-8e5fc65e.mp3",
+    "slow": "public/audio/slow/queso-8e5fc65e.mp3"
+  },
+  {
+    "key": "quiero",
+    "text": "Quiero",
+    "say": "Quiero",
+    "kind": "word",
+    "lessons": [
+      "food",
+      "shopping",
+      "travel"
+    ],
+    "normal": "public/audio/normal/quiero-aa5d0afa.mp3",
+    "slow": "public/audio/slow/quiero-aa5d0afa.mp3"
+  },
+  {
+    "key": "quiero agua, por favor.",
+    "text": "Quiero agua, por favor.",
+    "say": "Quiero agua, por favor.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/quiero-agua-por-favor-641f2cd0.mp3",
+    "slow": "public/audio/slow/quiero-agua-por-favor-641f2cd0.mp3"
+  },
+  {
+    "key": "quiero pagar con tarjeta.",
+    "text": "Quiero pagar con tarjeta.",
+    "say": "Quiero pagar con tarjeta.",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/quiero-pagar-con-tarjeta-c15559c7.mp3",
+    "slow": "public/audio/slow/quiero-pagar-con-tarjeta-c15559c7.mp3"
+  },
+  {
+    "key": "quiero una habitación, por favor.",
+    "text": "Quiero una habitación, por favor.",
+    "say": "Quiero una habitación, por favor.",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/quiero-una-habitacion-por-favor-48527e98.mp3",
+    "slow": "public/audio/slow/quiero-una-habitacion-por-favor-48527e98.mp3"
+  },
+  {
+    "key": "quiero una sopa de pollo.",
+    "text": "Quiero una sopa de pollo.",
+    "say": "Quiero una sopa de pollo.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/quiero-una-sopa-de-pollo-91da0969.mp3",
+    "slow": "public/audio/slow/quiero-una-sopa-de-pollo-91da0969.mp3"
+  },
+  {
+    "key": "quisiera",
+    "text": "Quisiera",
+    "say": "Quisiera",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/quisiera-07377a1a.mp3",
+    "slow": "public/audio/slow/quisiera-07377a1a.mp3"
+  },
+  {
+    "key": "quisiera este sombrero.",
+    "text": "Quisiera este sombrero.",
+    "say": "Quisiera este sombrero.",
+    "kind": "sentence",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/quisiera-este-sombrero-f9ec69ec.mp3",
+    "slow": "public/audio/slow/quisiera-este-sombrero-f9ec69ec.mp3"
+  },
+  {
+    "key": "recto",
+    "text": "recto",
+    "say": "recto",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/recto-1e07b9ee.mp3",
+    "slow": "public/audio/slow/recto-1e07b9ee.mp3"
+  },
+  {
+    "key": "rosa",
+    "text": "Rosa",
+    "say": "Rosa",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/rosa-5efc86ca.mp3",
+    "slow": "public/audio/slow/rosa-5efc86ca.mp3"
+  },
+  {
+    "key": "sale",
+    "text": "sale",
+    "say": "sale",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/sale-5b8a763b.mp3",
+    "slow": "public/audio/slow/sale-5b8a763b.mp3"
+  },
+  {
+    "key": "se",
+    "text": "se",
+    "say": "se",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/se-00762ccf.mp3",
+    "slow": "public/audio/slow/se-00762ccf.mp3"
+  },
+  {
+    "key": "se llama",
+    "text": "se llama",
+    "say": "se llama",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/se-llama-15871a95.mp3",
+    "slow": "public/audio/slow/se-llama-15871a95.mp3"
+  },
+  {
+    "key": "seis",
+    "text": "Seis",
+    "say": "Seis",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/seis-ba157934.mp3",
+    "slow": "public/audio/slow/seis-ba157934.mp3"
+  },
+  {
+    "key": "seis, siete, ocho, nueve.",
+    "text": "Seis, siete, ocho, nueve.",
+    "say": "Seis, siete, ocho, nueve.",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/seis-siete-ocho-nueve-07020731.mp3",
+    "slow": "public/audio/slow/seis-siete-ocho-nueve-07020731.mp3"
+  },
+  {
+    "key": "siete",
+    "text": "siete",
+    "say": "siete",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/siete-c0bdfc8b.mp3",
+    "slow": "public/audio/slow/siete-c0bdfc8b.mp3"
+  },
+  {
+    "key": "sigue",
+    "text": "sigue",
+    "say": "sigue",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/sigue-74865927.mp3",
+    "slow": "public/audio/slow/sigue-74865927.mp3"
+  },
+  {
+    "key": "sigue todo recto.",
+    "text": "Sigue todo recto.",
+    "say": "Sigue todo recto.",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/sigue-todo-recto-e97b05ab.mp3",
+    "slow": "public/audio/slow/sigue-todo-recto-e97b05ab.mp3"
+  },
+  {
+    "key": "simpática",
+    "text": "simpática",
+    "say": "simpática",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/simpatica-80b8c54b.mp3",
+    "slow": "public/audio/slow/simpatica-80b8c54b.mp3"
+  },
+  {
+    "key": "simpáticos",
+    "text": "simpáticos",
+    "say": "simpáticos",
+    "kind": "word",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/simpaticos-7ad17041.mp3",
+    "slow": "public/audio/slow/simpaticos-7ad17041.mp3"
+  },
+  {
+    "key": "sol",
+    "text": "sol",
+    "say": "sol",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/sol-fbb93bb9.mp3",
+    "slow": "public/audio/slow/sol-fbb93bb9.mp3"
+  },
+  {
+    "key": "sombrero",
+    "text": "sombrero",
+    "say": "sombrero",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/sombrero-9e7abfb6.mp3",
+    "slow": "public/audio/slow/sombrero-9e7abfb6.mp3"
+  },
+  {
+    "key": "son",
+    "text": "son",
+    "say": "son",
+    "kind": "word",
+    "lessons": [
+      "family",
+      "shopping",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/son-f0cbc0ee.mp3",
+    "slow": "public/audio/slow/son-f0cbc0ee.mp3"
+  },
+  {
+    "key": "son las tres.",
+    "text": "Son las tres.",
+    "say": "Son las tres.",
+    "kind": "sentence",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/son-las-tres-acd32c6f.mp3",
+    "slow": "public/audio/slow/son-las-tres-acd32c6f.mp3"
+  },
+  {
+    "key": "sopa",
+    "text": "sopa",
+    "say": "sopa",
+    "kind": "word",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/sopa-4662abff.mp3",
+    "slow": "public/audio/slow/sopa-4662abff.mp3"
+  },
+  {
+    "key": "soy",
+    "text": "soy",
+    "say": "soy",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "family"
+    ],
+    "normal": "public/audio/normal/soy-55e30b37.mp3",
+    "slow": "public/audio/slow/soy-55e30b37.mp3"
+  },
+  {
+    "key": "soy de estados unidos.",
+    "text": "Soy de Estados Unidos.",
+    "say": "Soy de Estados Unidos.",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/soy-de-estados-unidos-3e617b2c.mp3",
+    "slow": "public/audio/slow/soy-de-estados-unidos-3e617b2c.mp3"
+  },
+  {
+    "key": "tarde",
+    "text": "tarde",
+    "say": "tarde",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/tarde-8693c78a.mp3",
+    "slow": "public/audio/slow/tarde-8693c78a.mp3"
+  },
+  {
+    "key": "tardes",
+    "text": "tardes",
+    "say": "tardes",
+    "kind": "word",
+    "lessons": [
+      "greetings"
+    ],
+    "normal": "public/audio/normal/tardes-c1c599e6.mp3",
+    "slow": "public/audio/slow/tardes-c1c599e6.mp3"
+  },
+  {
+    "key": "tarjeta",
+    "text": "tarjeta",
+    "say": "tarjeta",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/tarjeta-c1048c64.mp3",
+    "slow": "public/audio/slow/tarjeta-c1048c64.mp3"
+  },
+  {
+    "key": "te",
+    "text": "te",
+    "say": "te",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/te-33e9505d.mp3",
+    "slow": "public/audio/slow/te-33e9505d.mp3"
+  },
+  {
+    "key": "te llamas",
+    "text": "te llamas",
+    "say": "te llamas",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/te-llamas-617779a4.mp3",
+    "slow": "public/audio/slow/te-llamas-617779a4.mp3"
+  },
+  {
+    "key": "temprano",
+    "text": "temprano",
+    "say": "temprano",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/temprano-fb69c43f.mp3",
+    "slow": "public/audio/slow/temprano-fb69c43f.mp3"
+  },
+  {
+    "key": "tengo",
+    "text": "Tengo",
+    "say": "Tengo",
+    "kind": "word",
+    "lessons": [
+      "numbers",
+      "family",
+      "food"
+    ],
+    "normal": "public/audio/normal/tengo-fd3d44f6.mp3",
+    "slow": "public/audio/slow/tengo-fd3d44f6.mp3"
+  },
+  {
+    "key": "tengo diez años.",
+    "text": "Tengo diez años.",
+    "say": "Tengo diez años.",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/tengo-diez-anos-3b3e2ea5.mp3",
+    "slow": "public/audio/slow/tengo-diez-anos-3b3e2ea5.mp3"
+  },
+  {
+    "key": "tengo dos gatos.",
+    "text": "Tengo dos gatos.",
+    "say": "Tengo dos gatos.",
+    "kind": "sentence",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/tengo-dos-gatos-0345570a.mp3",
+    "slow": "public/audio/slow/tengo-dos-gatos-0345570a.mp3"
+  },
+  {
+    "key": "tengo mucha hambre.",
+    "text": "Tengo mucha hambre.",
+    "say": "Tengo mucha hambre.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/tengo-mucha-hambre-40251cf2.mp3",
+    "slow": "public/audio/slow/tengo-mucha-hambre-40251cf2.mp3"
+  },
+  {
+    "key": "tengo una hermana.",
+    "text": "Tengo una hermana.",
+    "say": "Tengo una hermana.",
+    "kind": "sentence",
+    "lessons": [
+      "family"
+    ],
+    "normal": "public/audio/normal/tengo-una-hermana-b0101b85.mp3",
+    "slow": "public/audio/slow/tengo-una-hermana-b0101b85.mp3"
+  },
+  {
+    "key": "tienda",
+    "text": "tienda",
+    "say": "tienda",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/tienda-58637696.mp3",
+    "slow": "public/audio/slow/tienda-58637696.mp3"
+  },
+  {
+    "key": "tienes",
+    "text": "tienes",
+    "say": "tienes",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/tienes-1145553f.mp3",
+    "slow": "public/audio/slow/tienes-1145553f.mp3"
+  },
+  {
+    "key": "todo",
+    "text": "todo",
+    "say": "todo",
+    "kind": "word",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/todo-05f20a71.mp3",
+    "slow": "public/audio/slow/todo-05f20a71.mp3"
+  },
+  {
+    "key": "todo recto",
+    "text": "todo recto",
+    "say": "todo recto",
+    "kind": "sentence",
+    "lessons": [
+      "directions"
+    ],
+    "normal": "public/audio/normal/todo-recto-31191462.mp3",
+    "slow": "public/audio/slow/todo-recto-31191462.mp3"
+  },
+  {
+    "key": "trabajo",
+    "text": "trabajo",
+    "say": "trabajo",
+    "kind": "word",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/trabajo-09d2e3a1.mp3",
+    "slow": "public/audio/slow/trabajo-09d2e3a1.mp3"
+  },
+  {
+    "key": "trabajo cada día.",
+    "text": "Trabajo cada día.",
+    "say": "Trabajo cada día.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/trabajo-cada-dia-e5c1bd67.mp3",
+    "slow": "public/audio/slow/trabajo-cada-dia-e5c1bd67.mp3"
+  },
+  {
+    "key": "tren",
+    "text": "tren",
+    "say": "tren",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/tren-15047c92.mp3",
+    "slow": "public/audio/slow/tren-15047c92.mp3"
+  },
+  {
+    "key": "tres",
+    "text": "tres",
+    "say": "tres",
+    "kind": "word",
+    "lessons": [
+      "numbers",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/tres-0c959873.mp3",
+    "slow": "public/audio/slow/tres-0c959873.mp3"
+  },
+  {
+    "key": "tú",
+    "text": "tú",
+    "say": "tú",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/tu-044e993f.mp3",
+    "slow": "public/audio/slow/tu-044e993f.mp3"
+  },
+  {
+    "key": "un",
+    "text": "un",
+    "say": "un",
+    "kind": "word",
+    "lessons": [
+      "family",
+      "travel"
+    ],
+    "normal": "public/audio/normal/un-dd3bc42b.mp3",
+    "slow": "public/audio/slow/un-dd3bc42b.mp3"
+  },
+  {
+    "key": "un boleto a madrid, por favor.",
+    "text": "Un boleto a Madrid, por favor.",
+    "say": "Un boleto a Madrid, por favor.",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/un-boleto-a-madrid-por-favor-60af3ef9.mp3",
+    "slow": "public/audio/slow/un-boleto-a-madrid-por-favor-60af3ef9.mp3"
+  },
+  {
+    "key": "una",
+    "text": "una",
+    "say": "una",
+    "kind": "word",
+    "lessons": [
+      "family",
+      "food",
+      "time-weather",
+      "travel"
+    ],
+    "normal": "public/audio/normal/una-226f3918.mp3",
+    "slow": "public/audio/slow/una-226f3918.mp3"
+  },
+  {
+    "key": "unidos",
+    "text": "Unidos",
+    "say": "Unidos",
+    "kind": "word",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/unidos-eeac5eb8.mp3",
+    "slow": "public/audio/slow/unidos-eeac5eb8.mp3"
+  },
+  {
+    "key": "uno",
+    "text": "uno",
+    "say": "uno",
+    "kind": "word",
+    "lessons": [
+      "numbers"
+    ],
+    "normal": "public/audio/normal/uno-81b6f507.mp3",
+    "slow": "public/audio/slow/uno-81b6f507.mp3"
+  },
+  {
+    "key": "vestido",
+    "text": "vestido",
+    "say": "vestido",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/vestido-f50e2745.mp3",
+    "slow": "public/audio/slow/vestido-f50e2745.mp3"
+  },
+  {
+    "key": "viajar",
+    "text": "viajar",
+    "say": "viajar",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/viajar-3ce867c1.mp3",
+    "slow": "public/audio/slow/viajar-3ce867c1.mp3"
+  },
+  {
+    "key": "viaje",
+    "text": "viaje",
+    "say": "viaje",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/viaje-4db74123.mp3",
+    "slow": "public/audio/slow/viaje-4db74123.mp3"
+  },
+  {
+    "key": "viento",
+    "text": "viento",
+    "say": "viento",
+    "kind": "word",
+    "lessons": [
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/viento-03a2a4ea.mp3",
+    "slow": "public/audio/slow/viento-03a2a4ea.mp3"
+  },
+  {
+    "key": "voy",
+    "text": "Voy",
+    "say": "Voy",
+    "kind": "word",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/voy-4215b0c9.mp3",
+    "slow": "public/audio/slow/voy-4215b0c9.mp3"
+  },
+  {
+    "key": "voy al aeropuerto.",
+    "text": "Voy al aeropuerto.",
+    "say": "Voy al aeropuerto.",
+    "kind": "sentence",
+    "lessons": [
+      "travel"
+    ],
+    "normal": "public/audio/normal/voy-al-aeropuerto-1b945278.mp3",
+    "slow": "public/audio/slow/voy-al-aeropuerto-1b945278.mp3"
+  },
+  {
+    "key": "y",
+    "text": "y",
+    "say": "y",
+    "kind": "word",
+    "lessons": [
+      "food",
+      "time-weather"
+    ],
+    "normal": "public/audio/normal/y-95cb0bfd.mp3",
+    "slow": "public/audio/slow/y-95cb0bfd.mp3"
+  },
+  {
+    "key": "yo",
+    "text": "yo",
+    "say": "yo",
+    "kind": "word",
+    "lessons": [
+      "introductions",
+      "food",
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/yo-c41975d1.mp3",
+    "slow": "public/audio/slow/yo-c41975d1.mp3"
+  },
+  {
+    "key": "yo bebo café.",
+    "text": "Yo bebo café.",
+    "say": "Yo bebo café.",
+    "kind": "sentence",
+    "lessons": [
+      "food"
+    ],
+    "normal": "public/audio/normal/yo-bebo-cafe-b3b1f0d4.mp3",
+    "slow": "public/audio/slow/yo-bebo-cafe-b3b1f0d4.mp3"
+  },
+  {
+    "key": "yo estudio español por la mañana.",
+    "text": "Yo estudio español por la mañana.",
+    "say": "Yo estudio español por la mañana.",
+    "kind": "sentence",
+    "lessons": [
+      "daily-routine"
+    ],
+    "normal": "public/audio/normal/yo-estudio-espanol-por-la-manana-2b995073.mp3",
+    "slow": "public/audio/slow/yo-estudio-espanol-por-la-manana-2b995073.mp3"
+  },
+  {
+    "key": "yo soy de chicago.",
+    "text": "Yo soy de Chicago.",
+    "say": "Yo soy de Chicago.",
+    "kind": "sentence",
+    "lessons": [
+      "introductions"
+    ],
+    "normal": "public/audio/normal/yo-soy-de-chicago-0d113e2e.mp3",
+    "slow": "public/audio/slow/yo-soy-de-chicago-0d113e2e.mp3"
+  },
+  {
+    "key": "zapatos",
+    "text": "zapatos",
+    "say": "zapatos",
+    "kind": "word",
+    "lessons": [
+      "shopping"
+    ],
+    "normal": "public/audio/normal/zapatos-ae45f157.mp3",
+    "slow": "public/audio/slow/zapatos-ae45f157.mp3"
+  }
+]

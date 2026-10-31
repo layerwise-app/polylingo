@@ -22,11 +22,19 @@ export const auth = betterAuth({
   emailAndPassword: {
     enabled: true
   },
+  user: {
+    deleteUser: {
+      enabled: true
+    }
+  },
   plugins: [
     emailOTP({
       otpLength: 6,
       expiresIn: 300,
       allowedAttempts: 3,
+      changeEmail: {
+        enabled: true
+      },
       async sendVerificationOTP({ email, otp, type }) {
         await sendAuthEmail({
           email,

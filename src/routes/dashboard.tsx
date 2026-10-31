@@ -1,25 +1,13 @@
-import { createFileRoute, Link, redirect } from '@tanstack/react-router';
-import { Badge } from '~/components/ui/badge';
-import { Button } from '~/components/ui/button';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardHeader,
-  CardTitle
-} from '~/components/ui/card';
+import { useEffect, useRef } from 'react';
+import { createFileRoute, Outlet, redirect } from '@tanstack/react-router';
+import { useQuery, useQueryClient } from '@tanstack/react-query';
+import { toast } from 'sonner';
 import { getAuthSession } from '~/lib/auth.functions';
+import { claimGuestProgress, updateSettings } from '~/lib/game.functions';
+import { learnerStateQuery } from '~/lib/game.queries';
+import { clearGuestToken, peekGuestToken } from '~/lib/guest';
+import { setSoundEnabled } from '~/lib/sfx';
 import { seo } from '~/utils/seo';
-
-const createdAtFormatter = new Intl.DateTimeFormat('en-US', {
-  year: 'numeric',
-  month: 'long',
-  day: 'numeric',
-  hour: 'numeric',
-  minute: '2-digit',
-  timeZone: 'UTC',
-  timeZoneName: 'short'
-});
 
 export const Route = createFileRoute('/dashboard')({
   beforeLoad: async () => {
@@ -30,69 +18,46 @@ export const Route = createFileRoute('/dashboard')({
 
     return { user: session.user };
   },
-  head: () =>
-    seo({
-      title: 'Dashboard',
-      description: 'View your account information',
-      noindex: true
-    }),
-  component: DashboardPage
+  head: () => seo({ title: 'Learn', noindex: true }),
+  component: DashboardLayout
 });
 
-function DashboardPage() {
-  const { user } = Route.useRouteContext();
-  const createdAt = createdAtFormatter.format(new Date(user.createdAt));
+/** Runs once after sign-in, and on every signed-in page after that. */
+function useLearnerSetup() {
+  const queryClient = useQueryClient();
+  const started = useRef(false);
+  const { data: state } = useQuery(learnerStateQuery);
 
-  return (
-    <div className='min-h-[100dvh] bg-muted/30'>
-      <header className='border-b bg-background'>
-        <div className='container mx-auto flex h-16 items-center justify-between px-6 sm:px-8'>
-          <Link to='/' className='font-semibold tracking-tight'>
-            My App
-          </Link>
-          <Button variant='outline' asChild>
-            <Link to='/'>Back home</Link>
-          </Button>
-        </div>
-      </header>
+  useEffect(() => {
+    if (state) setSoundEnabled(state.soundEnabled);
+  }, [state]);
 
-      <main className='container mx-auto max-w-3xl px-6 py-12 sm:px-8 sm:py-16'>
-        <div className='mb-8 space-y-2'>
-          <h1 className='text-3xl font-semibold tracking-tight'>
-            Your account
-          </h1>
-          <p className='text-muted-foreground'>
-            The profile connected to your current session.
-          </p>
-        </div>
+  useEffect(() => {
+    if (started.current) return;
+    started.current = true;
+    void (async () => {
+      // The time zone goes first, so a carried-over lesson counts on the right day.
+      await updateSettings({
+        data: { timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone }
+      });
+      const guestToken = peekGuestToken();
+      if (guestToken) {
+        const result = await claimGuestProgress({ data: { guestToken } });
+        clearGuestToken();
+        if (result.claimed === 'completed') {
+          toast.success(`Your lesson is saved. +${result.xp} XP!`);
+        } else if (result.claimed === 'in_progress') {
+          toast.success('Your lesson is saved. Pick up where you left off.');
+        }
+      }
+      await queryClient.invalidateQueries({ queryKey: ['learner'] });
+    })().catch(() => {
+      // Nothing is lost: the token stays, and this runs again on the next visit.
+    });
+  }, [queryClient]);
+}
 
-        <Card>
-          <CardHeader>
-            <CardTitle>{user.name}</CardTitle>
-            <CardDescription>Account information</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <dl className='grid gap-6 sm:grid-cols-2'>
-              <div className='space-y-1'>
-                <dt className='text-sm text-muted-foreground'>Email</dt>
-                <dd className='font-medium break-all'>{user.email}</dd>
-              </div>
-              <div className='space-y-1'>
-                <dt className='text-sm text-muted-foreground'>Email status</dt>
-                <dd>
-                  <Badge variant={user.emailVerified ? 'secondary' : 'outline'}>
-                    {user.emailVerified ? 'Verified' : 'Not verified'}
-                  </Badge>
-                </dd>
-              </div>
-              <div className='space-y-1 sm:col-span-2'>
-                <dt className='text-sm text-muted-foreground'>Registered</dt>
-                <dd className='font-medium'>{createdAt}</dd>
-              </div>
-            </dl>
-          </CardContent>
-        </Card>
-      </main>
-    </div>
-  );
+function DashboardLayout() {
+  useLearnerSetup();
+  return <Outlet />;
 }

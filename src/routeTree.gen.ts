@@ -8,99 +8,177 @@
 // You should NOT make any changes in this file as it will be overwritten.
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
-import { Route as rootRouteImport } from './routes/__root';
-import { Route as IndexRouteImport } from './routes/index';
-import { Route as DashboardRouteImport } from './routes/dashboard';
-import { Route as ForgotPasswordRouteImport } from './routes/forgot-password';
-import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt';
-import { Route as SignInRouteImport } from './routes/sign-in';
-import { Route as SignUpRouteImport } from './routes/sign-up';
-import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml';
-import { Route as SignInOtpRouteImport } from './routes/sign-in_.otp';
-import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$';
+import { Route as rootRouteImport } from './routes/__root'
+import { Route as IndexRouteImport } from './routes/index'
+import { Route as DashboardRouteImport } from './routes/dashboard'
+import { Route as ForgotPasswordRouteImport } from './routes/forgot-password'
+import { Route as RobotsDottxtRouteImport } from './routes/robots[.]txt'
+import { Route as SignInRouteImport } from './routes/sign-in'
+import { Route as SignUpRouteImport } from './routes/sign-up'
+import { Route as SitemapDotxmlRouteImport } from './routes/sitemap[.]xml'
+import { Route as TryRouteImport } from './routes/try'
+import { Route as DashboardAppRouteImport } from './routes/dashboard/_app'
+import { Route as DashboardPracticeSessionRouteImport } from './routes/dashboard/practice-session'
+import { Route as SignInOtpRouteImport } from './routes/sign-in_.otp'
+import { Route as ApiAuthSplatRouteImport } from './routes/api/auth/$'
+import { Route as DashboardAppIndexRouteImport } from './routes/dashboard/_app/index'
+import { Route as DashboardAppLeaderboardRouteImport } from './routes/dashboard/_app/leaderboard'
+import { Route as DashboardAppPracticeRouteImport } from './routes/dashboard/_app/practice'
+import { Route as DashboardAppProfileRouteImport } from './routes/dashboard/_app/profile'
+import { Route as DashboardAppSettingsRouteImport } from './routes/dashboard/_app/settings'
+import { Route as DashboardLessonLessonIdRouteImport } from './routes/dashboard/lesson.$lessonId'
 
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const DashboardRoute = DashboardRouteImport.update({
   id: '/dashboard',
   path: '/dashboard',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ForgotPasswordRoute = ForgotPasswordRouteImport.update({
   id: '/forgot-password',
   path: '/forgot-password',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const RobotsDottxtRoute = RobotsDottxtRouteImport.update({
   id: '/robots.txt',
   path: '/robots.txt',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SignInRoute = SignInRouteImport.update({
   id: '/sign-in',
   path: '/sign-in',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SignUpRoute = SignUpRouteImport.update({
   id: '/sign-up',
   path: '/sign-up',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SitemapDotxmlRoute = SitemapDotxmlRouteImport.update({
   id: '/sitemap.xml',
   path: '/sitemap.xml',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
+const TryRoute = TryRouteImport.update({
+  id: '/try',
+  path: '/try',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardAppRoute = DashboardAppRouteImport.update({
+  id: '/_app',
+  getParentRoute: () => DashboardRoute,
+} as any)
+const DashboardPracticeSessionRoute =
+  DashboardPracticeSessionRouteImport.update({
+    id: '/practice-session',
+    path: '/practice-session',
+    getParentRoute: () => DashboardRoute,
+  } as any)
 const SignInOtpRoute = SignInOtpRouteImport.update({
   id: '/sign-in_/otp',
   path: '/sign-in/otp',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
 const ApiAuthSplatRoute = ApiAuthSplatRouteImport.update({
   id: '/api/auth/$',
   path: '/api/auth/$',
-  getParentRoute: () => rootRouteImport
-} as any);
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DashboardAppIndexRoute = DashboardAppIndexRouteImport.update({
+  id: '/',
+  path: '/',
+  getParentRoute: () => DashboardAppRoute,
+} as any)
+const DashboardAppLeaderboardRoute = DashboardAppLeaderboardRouteImport.update({
+  id: '/leaderboard',
+  path: '/leaderboard',
+  getParentRoute: () => DashboardAppRoute,
+} as any)
+const DashboardAppPracticeRoute = DashboardAppPracticeRouteImport.update({
+  id: '/practice',
+  path: '/practice',
+  getParentRoute: () => DashboardAppRoute,
+} as any)
+const DashboardAppProfileRoute = DashboardAppProfileRouteImport.update({
+  id: '/profile',
+  path: '/profile',
+  getParentRoute: () => DashboardAppRoute,
+} as any)
+const DashboardAppSettingsRoute = DashboardAppSettingsRouteImport.update({
+  id: '/settings',
+  path: '/settings',
+  getParentRoute: () => DashboardAppRoute,
+} as any)
+const DashboardLessonLessonIdRoute = DashboardLessonLessonIdRouteImport.update({
+  id: '/lesson/$lessonId',
+  path: '/lesson/$lessonId',
+  getParentRoute: () => DashboardRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof IndexRoute;
-  '/dashboard': typeof DashboardRoute;
-  '/forgot-password': typeof ForgotPasswordRoute;
-  '/robots.txt': typeof RobotsDottxtRoute;
-  '/sign-in': typeof SignInRoute;
-  '/sign-up': typeof SignUpRoute;
-  '/sitemap.xml': typeof SitemapDotxmlRoute;
-  '/sign-in/otp': typeof SignInOtpRoute;
-  '/api/auth/$': typeof ApiAuthSplatRoute;
+  '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRouteWithChildren
+  '/forgot-password': typeof ForgotPasswordRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/try': typeof TryRoute
+  '/dashboard/practice-session': typeof DashboardPracticeSessionRoute
+  '/sign-in/otp': typeof SignInOtpRoute
+  '/api/auth/$': typeof ApiAuthSplatRoute
+  '/dashboard/leaderboard': typeof DashboardAppLeaderboardRoute
+  '/dashboard/practice': typeof DashboardAppPracticeRoute
+  '/dashboard/profile': typeof DashboardAppProfileRoute
+  '/dashboard/settings': typeof DashboardAppSettingsRoute
+  '/dashboard/lesson/$lessonId': typeof DashboardLessonLessonIdRoute
+  '/dashboard/': typeof DashboardAppIndexRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof IndexRoute;
-  '/dashboard': typeof DashboardRoute;
-  '/forgot-password': typeof ForgotPasswordRoute;
-  '/robots.txt': typeof RobotsDottxtRoute;
-  '/sign-in': typeof SignInRoute;
-  '/sign-up': typeof SignUpRoute;
-  '/sitemap.xml': typeof SitemapDotxmlRoute;
-  '/sign-in/otp': typeof SignInOtpRoute;
-  '/api/auth/$': typeof ApiAuthSplatRoute;
+  '/': typeof IndexRoute
+  '/dashboard': typeof DashboardAppIndexRoute
+  '/forgot-password': typeof ForgotPasswordRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/try': typeof TryRoute
+  '/dashboard/practice-session': typeof DashboardPracticeSessionRoute
+  '/sign-in/otp': typeof SignInOtpRoute
+  '/api/auth/$': typeof ApiAuthSplatRoute
+  '/dashboard/leaderboard': typeof DashboardAppLeaderboardRoute
+  '/dashboard/practice': typeof DashboardAppPracticeRoute
+  '/dashboard/profile': typeof DashboardAppProfileRoute
+  '/dashboard/settings': typeof DashboardAppSettingsRoute
+  '/dashboard/lesson/$lessonId': typeof DashboardLessonLessonIdRoute
 }
 export interface FileRoutesById {
-  __root__: typeof rootRouteImport;
-  '/': typeof IndexRoute;
-  '/dashboard': typeof DashboardRoute;
-  '/forgot-password': typeof ForgotPasswordRoute;
-  '/robots.txt': typeof RobotsDottxtRoute;
-  '/sign-in': typeof SignInRoute;
-  '/sign-up': typeof SignUpRoute;
-  '/sitemap.xml': typeof SitemapDotxmlRoute;
-  '/sign-in_/otp': typeof SignInOtpRoute;
-  '/api/auth/$': typeof ApiAuthSplatRoute;
+  __root__: typeof rootRouteImport
+  '/': typeof IndexRoute
+  '/dashboard': typeof DashboardRouteWithChildren
+  '/forgot-password': typeof ForgotPasswordRoute
+  '/robots.txt': typeof RobotsDottxtRoute
+  '/sign-in': typeof SignInRoute
+  '/sign-up': typeof SignUpRoute
+  '/sitemap.xml': typeof SitemapDotxmlRoute
+  '/try': typeof TryRoute
+  '/dashboard/_app': typeof DashboardAppRouteWithChildren
+  '/dashboard/practice-session': typeof DashboardPracticeSessionRoute
+  '/sign-in_/otp': typeof SignInOtpRoute
+  '/api/auth/$': typeof ApiAuthSplatRoute
+  '/dashboard/_app/leaderboard': typeof DashboardAppLeaderboardRoute
+  '/dashboard/_app/practice': typeof DashboardAppPracticeRoute
+  '/dashboard/_app/profile': typeof DashboardAppProfileRoute
+  '/dashboard/_app/settings': typeof DashboardAppSettingsRoute
+  '/dashboard/lesson/$lessonId': typeof DashboardLessonLessonIdRoute
+  '/dashboard/_app/': typeof DashboardAppIndexRoute
 }
 export interface FileRouteTypes {
-  fileRoutesByFullPath: FileRoutesByFullPath;
+  fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
     | '/dashboard'
@@ -109,9 +187,17 @@ export interface FileRouteTypes {
     | '/sign-in'
     | '/sign-up'
     | '/sitemap.xml'
+    | '/try'
+    | '/dashboard/practice-session'
     | '/sign-in/otp'
-    | '/api/auth/$';
-  fileRoutesByTo: FileRoutesByTo;
+    | '/api/auth/$'
+    | '/dashboard/leaderboard'
+    | '/dashboard/practice'
+    | '/dashboard/profile'
+    | '/dashboard/settings'
+    | '/dashboard/lesson/$lessonId'
+    | '/dashboard/'
+  fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
     | '/dashboard'
@@ -120,8 +206,15 @@ export interface FileRouteTypes {
     | '/sign-in'
     | '/sign-up'
     | '/sitemap.xml'
+    | '/try'
+    | '/dashboard/practice-session'
     | '/sign-in/otp'
-    | '/api/auth/$';
+    | '/api/auth/$'
+    | '/dashboard/leaderboard'
+    | '/dashboard/practice'
+    | '/dashboard/profile'
+    | '/dashboard/settings'
+    | '/dashboard/lesson/$lessonId'
   id:
     | '__root__'
     | '/'
@@ -131,110 +224,220 @@ export interface FileRouteTypes {
     | '/sign-in'
     | '/sign-up'
     | '/sitemap.xml'
+    | '/try'
+    | '/dashboard/_app'
+    | '/dashboard/practice-session'
     | '/sign-in_/otp'
-    | '/api/auth/$';
-  fileRoutesById: FileRoutesById;
+    | '/api/auth/$'
+    | '/dashboard/_app/leaderboard'
+    | '/dashboard/_app/practice'
+    | '/dashboard/_app/profile'
+    | '/dashboard/_app/settings'
+    | '/dashboard/lesson/$lessonId'
+    | '/dashboard/_app/'
+  fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  IndexRoute: typeof IndexRoute;
-  DashboardRoute: typeof DashboardRoute;
-  ForgotPasswordRoute: typeof ForgotPasswordRoute;
-  RobotsDottxtRoute: typeof RobotsDottxtRoute;
-  SignInRoute: typeof SignInRoute;
-  SignUpRoute: typeof SignUpRoute;
-  SitemapDotxmlRoute: typeof SitemapDotxmlRoute;
-  SignInOtpRoute: typeof SignInOtpRoute;
-  ApiAuthSplatRoute: typeof ApiAuthSplatRoute;
+  IndexRoute: typeof IndexRoute
+  DashboardRoute: typeof DashboardRouteWithChildren
+  ForgotPasswordRoute: typeof ForgotPasswordRoute
+  RobotsDottxtRoute: typeof RobotsDottxtRoute
+  SignInRoute: typeof SignInRoute
+  SignUpRoute: typeof SignUpRoute
+  SitemapDotxmlRoute: typeof SitemapDotxmlRoute
+  TryRoute: typeof TryRoute
+  SignInOtpRoute: typeof SignInOtpRoute
+  ApiAuthSplatRoute: typeof ApiAuthSplatRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
     '/': {
-      id: '/';
-      path: '/';
-      fullPath: '/';
-      preLoaderRoute: typeof IndexRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/dashboard': {
-      id: '/dashboard';
-      path: '/dashboard';
-      fullPath: '/dashboard';
-      preLoaderRoute: typeof DashboardRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/dashboard'
+      path: '/dashboard'
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof DashboardRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/forgot-password': {
-      id: '/forgot-password';
-      path: '/forgot-password';
-      fullPath: '/forgot-password';
-      preLoaderRoute: typeof ForgotPasswordRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/forgot-password'
+      path: '/forgot-password'
+      fullPath: '/forgot-password'
+      preLoaderRoute: typeof ForgotPasswordRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/robots.txt': {
-      id: '/robots.txt';
-      path: '/robots.txt';
-      fullPath: '/robots.txt';
-      preLoaderRoute: typeof RobotsDottxtRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/robots.txt'
+      path: '/robots.txt'
+      fullPath: '/robots.txt'
+      preLoaderRoute: typeof RobotsDottxtRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sign-in': {
-      id: '/sign-in';
-      path: '/sign-in';
-      fullPath: '/sign-in';
-      preLoaderRoute: typeof SignInRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/sign-in'
+      path: '/sign-in'
+      fullPath: '/sign-in'
+      preLoaderRoute: typeof SignInRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sign-up': {
-      id: '/sign-up';
-      path: '/sign-up';
-      fullPath: '/sign-up';
-      preLoaderRoute: typeof SignUpRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/sign-up'
+      path: '/sign-up'
+      fullPath: '/sign-up'
+      preLoaderRoute: typeof SignUpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/sitemap.xml': {
-      id: '/sitemap.xml';
-      path: '/sitemap.xml';
-      fullPath: '/sitemap.xml';
-      preLoaderRoute: typeof SitemapDotxmlRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/sitemap.xml'
+      path: '/sitemap.xml'
+      fullPath: '/sitemap.xml'
+      preLoaderRoute: typeof SitemapDotxmlRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/try': {
+      id: '/try'
+      path: '/try'
+      fullPath: '/try'
+      preLoaderRoute: typeof TryRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboard/_app': {
+      id: '/dashboard/_app'
+      path: ''
+      fullPath: '/dashboard'
+      preLoaderRoute: typeof DashboardAppRouteImport
+      parentRoute: typeof DashboardRoute
+    }
+    '/dashboard/practice-session': {
+      id: '/dashboard/practice-session'
+      path: '/practice-session'
+      fullPath: '/dashboard/practice-session'
+      preLoaderRoute: typeof DashboardPracticeSessionRouteImport
+      parentRoute: typeof DashboardRoute
+    }
     '/sign-in_/otp': {
-      id: '/sign-in_/otp';
-      path: '/sign-in/otp';
-      fullPath: '/sign-in/otp';
-      preLoaderRoute: typeof SignInOtpRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/sign-in_/otp'
+      path: '/sign-in/otp'
+      fullPath: '/sign-in/otp'
+      preLoaderRoute: typeof SignInOtpRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/api/auth/$': {
-      id: '/api/auth/$';
-      path: '/api/auth/$';
-      fullPath: '/api/auth/$';
-      preLoaderRoute: typeof ApiAuthSplatRouteImport;
-      parentRoute: typeof rootRouteImport;
-    };
+      id: '/api/auth/$'
+      path: '/api/auth/$'
+      fullPath: '/api/auth/$'
+      preLoaderRoute: typeof ApiAuthSplatRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/dashboard/_app/': {
+      id: '/dashboard/_app/'
+      path: '/'
+      fullPath: '/dashboard/'
+      preLoaderRoute: typeof DashboardAppIndexRouteImport
+      parentRoute: typeof DashboardAppRoute
+    }
+    '/dashboard/_app/leaderboard': {
+      id: '/dashboard/_app/leaderboard'
+      path: '/leaderboard'
+      fullPath: '/dashboard/leaderboard'
+      preLoaderRoute: typeof DashboardAppLeaderboardRouteImport
+      parentRoute: typeof DashboardAppRoute
+    }
+    '/dashboard/_app/practice': {
+      id: '/dashboard/_app/practice'
+      path: '/practice'
+      fullPath: '/dashboard/practice'
+      preLoaderRoute: typeof DashboardAppPracticeRouteImport
+      parentRoute: typeof DashboardAppRoute
+    }
+    '/dashboard/_app/profile': {
+      id: '/dashboard/_app/profile'
+      path: '/profile'
+      fullPath: '/dashboard/profile'
+      preLoaderRoute: typeof DashboardAppProfileRouteImport
+      parentRoute: typeof DashboardAppRoute
+    }
+    '/dashboard/_app/settings': {
+      id: '/dashboard/_app/settings'
+      path: '/settings'
+      fullPath: '/dashboard/settings'
+      preLoaderRoute: typeof DashboardAppSettingsRouteImport
+      parentRoute: typeof DashboardAppRoute
+    }
+    '/dashboard/lesson/$lessonId': {
+      id: '/dashboard/lesson/$lessonId'
+      path: '/lesson/$lessonId'
+      fullPath: '/dashboard/lesson/$lessonId'
+      preLoaderRoute: typeof DashboardLessonLessonIdRouteImport
+      parentRoute: typeof DashboardRoute
+    }
   }
 }
 
+interface DashboardAppRouteChildren {
+  DashboardAppLeaderboardRoute: typeof DashboardAppLeaderboardRoute
+  DashboardAppPracticeRoute: typeof DashboardAppPracticeRoute
+  DashboardAppProfileRoute: typeof DashboardAppProfileRoute
+  DashboardAppSettingsRoute: typeof DashboardAppSettingsRoute
+  DashboardAppIndexRoute: typeof DashboardAppIndexRoute
+}
+
+const DashboardAppRouteChildren: DashboardAppRouteChildren = {
+  DashboardAppLeaderboardRoute: DashboardAppLeaderboardRoute,
+  DashboardAppPracticeRoute: DashboardAppPracticeRoute,
+  DashboardAppProfileRoute: DashboardAppProfileRoute,
+  DashboardAppSettingsRoute: DashboardAppSettingsRoute,
+  DashboardAppIndexRoute: DashboardAppIndexRoute,
+}
+
+const DashboardAppRouteWithChildren = DashboardAppRoute._addFileChildren(
+  DashboardAppRouteChildren,
+)
+
+interface DashboardRouteChildren {
+  DashboardAppRoute: typeof DashboardAppRouteWithChildren
+  DashboardPracticeSessionRoute: typeof DashboardPracticeSessionRoute
+  DashboardLessonLessonIdRoute: typeof DashboardLessonLessonIdRoute
+}
+
+const DashboardRouteChildren: DashboardRouteChildren = {
+  DashboardAppRoute: DashboardAppRouteWithChildren,
+  DashboardPracticeSessionRoute: DashboardPracticeSessionRoute,
+  DashboardLessonLessonIdRoute: DashboardLessonLessonIdRoute,
+}
+
+const DashboardRouteWithChildren = DashboardRoute._addFileChildren(
+  DashboardRouteChildren,
+)
+
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
-  DashboardRoute: DashboardRoute,
+  DashboardRoute: DashboardRouteWithChildren,
   ForgotPasswordRoute: ForgotPasswordRoute,
   RobotsDottxtRoute: RobotsDottxtRoute,
   SignInRoute: SignInRoute,
   SignUpRoute: SignUpRoute,
   SitemapDotxmlRoute: SitemapDotxmlRoute,
+  TryRoute: TryRoute,
   SignInOtpRoute: SignInOtpRoute,
-  ApiAuthSplatRoute: ApiAuthSplatRoute
-};
+  ApiAuthSplatRoute: ApiAuthSplatRoute,
+}
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
-  ._addFileTypes<FileRouteTypes>();
+  ._addFileTypes<FileRouteTypes>()
 
-import type { getRouter } from './router.tsx';
-import type { createStart } from '@tanstack/react-start';
+import type { getRouter } from './router.tsx'
+import type { createStart } from '@tanstack/react-start'
 declare module '@tanstack/react-start' {
   interface Register {
-    ssr: true;
-    router: Awaited<ReturnType<typeof getRouter>>;
+    ssr: true
+    router: Awaited<ReturnType<typeof getRouter>>
   }
 }

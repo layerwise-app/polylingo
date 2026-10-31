@@ -8,6 +8,7 @@ import {
 import type { QueryClient } from '@tanstack/react-query';
 import type * as React from 'react';
 import { ThemeProvider } from 'next-themes';
+import { brand, brandCssVariables } from '~/brand.config';
 import { DefaultCatchBoundary } from '~/components/DefaultCatchBoundary';
 import { NotFound } from '~/components/NotFound';
 import { Toaster } from '~/components/ui/sonner';
@@ -24,6 +25,7 @@ export const Route = createRootRouteWithContext<{
     meta: [
       { charSet: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'theme-color', content: brand.colors.primary },
       ...(site.googleSiteVerification
         ? [
             {
@@ -34,7 +36,12 @@ export const Route = createRootRouteWithContext<{
         : []),
       ...seo({ title: site.name, description: site.description }).meta
     ],
-    links: [{ rel: 'icon', href: '/favicon.ico' }]
+    links: [
+      { rel: 'icon', href: '/favicon.ico', sizes: '32x32' },
+      { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' },
+      { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/site.webmanifest' }
+    ]
   }),
   errorComponent: (props) => (
     <RootDocument>
@@ -57,18 +64,19 @@ function RootDocument({ children }: { children: React.ReactNode }) {
   return (
     <html lang='en' suppressHydrationWarning>
       <head>
+        <style dangerouslySetInnerHTML={{ __html: brandCssVariables() }} />
         <HeadContent />
       </head>
       <body>
         <ThemeProvider
           attribute='class'
-          defaultTheme='system'
-          enableSystem
+          defaultTheme='light'
+          forcedTheme='light'
           disableTransitionOnChange
         >
           <TooltipProvider>
             {children}
-            <Toaster />
+            <Toaster position='top-center' />
           </TooltipProvider>
         </ThemeProvider>
         <Scripts />
