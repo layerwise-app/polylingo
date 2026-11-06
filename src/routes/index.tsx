@@ -281,9 +281,26 @@ function Home() {
             <Link to='/sign-up'>Sign up</Link>
             <a href={`mailto:${brand.supportEmail}`}>Contact</a>
           </nav>
-          <p className='text-sm font-semibold text-muted-foreground'>
-            © {new Date().getFullYear()} {brand.name}
-          </p>
+          <div className='flex flex-col items-center gap-3 sm:items-end'>
+            <p className='text-sm font-semibold text-muted-foreground'>
+              © {new Date().getFullYear()} {brand.name}
+            </p>
+            <a
+              href='https://layerwise.app'
+              target='_blank'
+              rel='noopener noreferrer'
+              className='shrink-0'
+            >
+              <img
+                src='https://layerwise.app/powered-by.png'
+                alt='Powered by Layerwise'
+                width={174}
+                height={28}
+                loading='lazy'
+                className='block h-7 w-[174px]'
+              />
+            </a>
+          </div>
         </div>
         <p
           data-testid='voice-disclosure'

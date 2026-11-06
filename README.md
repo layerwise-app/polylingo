@@ -1,19 +1,46 @@
+<a href="https://layerwise.app"><picture><source media="(prefers-color-scheme: dark)" srcset="https://layerwise.app/powered-by-dark.png"><img src="https://layerwise.app/powered-by.png" alt="Powered by Layerwise" width="174" height="28"></picture></a>
+
 # Polylingo
 
-A language learning SaaS template for Americans learning Spanish. It has a
-winding lesson path, five exercise types, hearts, XP, streaks, a weekly
-leaderboard, a free guest lesson, and accounts. Everything that makes it look
-like one brand, and everything that makes it teach one course, is plain editable
-data.
+Polylingo is a language learning app template for Americans learning beginner
+Spanish, made for anyone who wants to launch their own bite-size language course.
+Visitors can take the first lesson free without an account, then sign up to work
+through a winding path of 10 lessons with five exercise types, spoken audio,
+hearts, XP, daily streaks, achievements, and a weekly leaderboard. Everything
+that makes it look like one brand, and everything that makes it teach one course,
+is plain editable data.
 
-Built with TanStack Start, React, Tailwind CSS, Better Auth, and D1 with Drizzle,
-on Cloudflare Workers through Layerwise.
+Try the live demo at [polylingo.layerwise.site](https://polylingo.layerwise.site/).
+
+It was built with [Layerwise](https://layerwise.app), and you can open it in
+Layerwise to make your own version.
+
+The stack is TanStack Start, React, Tailwind CSS, Better Auth, and D1 with
+Drizzle, on Cloudflare Workers.
+
+## Where things live
+
+| What                                                  | File                                    |
+| ----------------------------------------------------- | --------------------------------------- |
+| Name, tagline, description, colors, mascot, email     | `src/brand.config.tsx`                  |
+| Landing page wording                                  | `src/routes/index.tsx`                  |
+| Lessons, one file each                                | `src/content/lessons/`                  |
+| Lesson order on the path                              | `src/content/course.ts`                 |
+| Pictures used by exercises                            | `src/components/art/illustrations.tsx`  |
+| XP, hearts, daily goals, practice, leaderboard        | `src/config/game.ts`                    |
+| Achievements                                          | `src/content/achievements.ts`           |
+| Sample leaderboard learners                           | `src/content/seeded-learners.ts`        |
+| Site address and share image for search and previews  | `src/lib/site.ts`                       |
+| Database tables                                       | `src/db/schema.ts`                      |
+
+## Commands
 
 ```bash
 pnpm dev             # start locally (Layerwise runs this for you)
 pnpm check-types     # TypeScript
 pnpm test            # game rules, grading, course checks, audio coverage
 pnpm build           # production build
+pnpm db:generate     # create a migration after editing src/db/schema.ts
 pnpm audio:generate  # record any missing speech clips and rebuild the manifest
 pnpm brand:assets    # redraw the favicons and share image from the brand config
 pnpm test:e2e        # play the whole product in a browser (see "Testing")
